@@ -1,0 +1,939 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201508 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.freecer.net.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1957                
+POS_TIME 2648                
+POS_VISITOR 17990               
+POS_DAY 29543               
+POS_DOMAIN 3713                
+POS_LOGIN 3951                
+POS_ROBOT 4106                
+POS_WORMS 5111                
+POS_EMAILSENDER 5242                
+POS_EMAILRECEIVER 5385                
+POS_SESSION 30551               
+POS_SIDER 30765               
+POS_FILETYPES 5520                
+POS_OS 5946                
+POS_BROWSER 6146                
+POS_SCREENSIZE 7374                
+POS_UNKNOWNREFERER 7448                
+POS_UNKNOWNREFERERBROWSER 7909                
+POS_ORIGIN 8281                
+POS_SEREFERRALS 8433                
+POS_PAGEREFS 8598                
+POS_SEARCHWORDS 10421               
+POS_KEYWORDS 10587               
+POS_MISC 2309                
+POS_ERRORS 10660               
+POS_CLUSTER 3807                
+POS_SIDER_404 10823               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150901000017 30190 10479937 65050137165
+FirstTime 20150801044557
+LastTime 20150831235953
+LastUpdate 20150901000121 30190 0 30189 0 0
+TotalVisits 610                 
+TotalUnique 266                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 279                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1618 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5803 25832 546139822 578 701 7965789
+1 4139 21077 458182922 375 562 6201417
+2 3634 19020 479035616 214 230 3908046
+3 3087 19089 427920148 250 357 4444154
+4 2441 9532 186125032 267 342 4209159
+5 1210 8356 145225816 310 392 4992452
+6 313 2273 32925084 343 373 5204811
+7 485 4389 44746329 238 303 4336401
+8 552 4424 27042856 243 288 3335150
+9 1411 5447 80377387 401 409 4471921
+10 2975 14010 217143555 521 543 6036094
+11 3460 16578 237316647 743 860 8030582
+12 4096 20355 345217426 449 581 6335737
+13 5225 23812 386951962 636 712 7635946
+14 4463 19297 476715090 295 357 5228373
+15 4689 22096 385954099 410 440 6245076
+16 5791 29021 426360931 562 659 7460627
+17 5099 22118 397343066 524 600 8992745
+18 5528 26667 599239841 589 721 6509685
+19 5605 22294 435915944 509 673 7314641
+20 5244 19113 320872320 452 640 5478546
+21 5726 19047 287830528 429 530 7039889
+22 5521 19424 305199394 378 458 5524685
+23 4940 21358 405587712 513 670 19704816
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 91437 414629 7655369527
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 24
+googlebot 3055 36255875 20150831234007 49
+bot[\s_+:,\.\;\/\\-] 1346 18243112 20150828183109 2
+baiduspider 844 64323606 20150831214505 0
+yandex 490 3798777 20150831125214 33
+mj12bot 488 4026456 20150831224423 24
+no_user_agent 202 7886173 20150831230636 1
+unknown 26 13602 20150831232231 26
+facebook 18 8470643 20150831000652 0
+java\/[0-9] 14 192374 20150831232304 0
+msnbot 11 129799 20150831153018 5
+core 1 85664 20150807113607 0
+y!j 4 32945 20150824133031 2
+libwww 1 49152 20150827215525 0
+slurp 1 95861 20150822010448 0
+robot 7 18660 20150831112145 2
+surveybot 8 59004 20150824031219 4
+archive\.org_bot 2 96560 20150822013641 1
+favicon 8 116486 20150831083449 0
+checker 1 280 20150825061407 1
+cfnetwork 2 17964 20150819205806 0
+w3c_validator 1 14567 20150816111539 0
+netcraft 1 85664 20150807040752 0
+msnbot\-media 9 4896 20150824003818 9
+crawl 7 143014 20150831155255 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 19
+css 85379 1374190381 0 0
+md 1 1533 0 0
+ico 3 6278 0 0
+ttf 347 8273300 0 0
+txt 5 2324 0 0
+woff 3914 276361066 0 0
+woff2 539 24583780 0 0
+php 85632 293576136 0 0
+html 969 18002561 0 0
+jpg 18272 1749253186 0 0
+eot 11 607670 0 0
+png 56198 863645436 0 0
+swf 16 491883 0 0
+zip 1 324 0 0
+tpl 1 1771 0 0
+js 160351 3039067846 0 0
+jpeg 97 81107 0 0
+svg 1 313398 0 0
+gif 2892 6909547 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 13
+linuxandroid 605
+blackberry 1
+winlong 140
+winxp 1024
+unix 39
+winnt 107436
+win98 6
+linux 6909
+winvista 243920
+macosx 37181
+winunknown 1
+Unknown 32
+win2008 17335
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 66
+chrome44.0.2403.125 271
+firefox28.0 2
+msie6.0 9
+chrome44.0.2403.130 869
+msie4.01 6
+firefox34.0 2
+curl 1
+chrome45.0.2450.0 2222
+msie8.0 106
+msie7.0 3
+firefox23.0 39
+chrome27.0.1453 128
+firefox41.0 26
+opera9.24 1
+firefox9.0.1 16
+chrome42.0.2311.152 433
+chrome9.0.597.98 56
+firefox40.0 36521
+mozilla 270
+netscape5.0 25
+chrome44.0.2403.157 1829
+chrome28.1.1500.75 36
+safari5.0.4 266
+firefox14.0.1 13
+chrome42.0.2311.135 92
+chrome33.0.1750.170 37
+chrome46.0.2486.0 38
+firefox3.6.3 1
+chrome44.0.2403.133 372
+chrome11.0.696.71 2
+safari8.0.3 76
+firefox36.0 1
+chrome46.0.2471.2 7218
+safari 6768
+safari7.0 39
+chrome43.0.2357.124 264
+android 92
+chrome41.0.2251.0 23
+safari8.0.7 4834
+chrome28.0.1468.0 1
+chrome45.0.2454.51 39
+opera9.80 251
+firefox31.0 8
+firefox6.0.2 2
+chrome16.0.912.36 1
+safari8.0 1547
+msie9.0 32
+chrome30.0.1599.101 242902
+Unknown 26
+chrome45.0.2427.7 57
+chrome46.0.2478.0 63
+chrome43.0.2357.65 30
+blackberry 1
+chrome26.0.1410.40 52
+chrome32.0.1725.115 40
+chrome34.0.1847.114 59
+chrome44.0.2403.155 64304
+chrome41.0.2272.118 82
+chrome42.0.2311.252 40
+chrome43.0.2357.130 40
+firefox3.0.3 1
+chrome44.0.2403.107 26828
+nokia 38
+firefox39.0 15030
+firefox37.0 44
+msie10.0 104
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+\ 20150828104227
+visionutils/0.2 20150831000546
+Ruby 20150816093349
+2ip.ru_CMS_Detector_(http://2ip.ru/cms/) 20150822014042
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20150831055131
+()_{_:;};/usr/bin/perl_-e_'print_\ 20150811233451
+Mozilla/5.0_zgrab/0.x 20150828143531
+Mozilla/5.0_(WhatsMyIP.org_HTTP_Compression_Test)_http://whatsmyip.org/ua 20150822011750
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+\ 20150828104227
+()_{_:;};/usr/bin/perl_-e_'print_\ 20150811233451
+visionutils/0.2 20150831000546
+Ruby 20150816093349
+Microsoft_Office_Word_2013 20150818120337
+2ip.ru_CMS_Detector_(http://2ip.ru/cms/) 20150822014042
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20150831055131
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 4713 4921
+From1 1 1
+From2 15 15
+From3 747 2788
+From4 85961 406904
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 13 13
+ask 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 37
+http://91.234.33.68/myadmin/sql.php 185 1098
+http://91.234.33.68/myadmin/index.php 184 225
+http://91.234.33.68/myadmin/navigation.php 102 257
+http://91.234.33.68/myadmin/db_structure.php 83 398
+http://www.freelancejob.ru/vacancy/41387/ 41 41
+http://91.234.33.68/myadmin/tbl_structure.php 20 101
+http://91.234.33.68/myadmin/main.php 18 366
+http://91.234.33.68/myadmin/tbl_select.php 18 60
+http://www.freelancejob.ru 15 15
+https://91.234.33.68/myadmin/ 12 40
+http://91.234.33.68/myadmin/db_sql.php 1 1
+https://www.facebook.com 1 1
+http://91.234.33.68/myadmin/tbl_sql.php 2 2
+http://91.234.33.68/myadmin/import.php 2 2
+http://www.freelancejob.ru/lenta.php 6 6
+http://fobos.dn.ua/screenfly/service.html 8 8
+http://91.234.33.68/myadmin/db_export.php 1 1
+http://91.234.33.68/myadmin/tbl_change.php 6 9
+http://copylancer.ru/com_exchange/exchange/seller_tenders 2 2
+http://91.234.33.68/myadmin/db_search.php 1 1
+https://www.facebook.com 2 2
+https://91.234.33.68/myadmin/navigation.php 2 18
+http://91.234.33.68/myadmin/phpmyadmin.css.php 0 28
+http://91.234.33.68/myadmin/tbl_alter.php 2 3
+https://91.234.33.68/myadmin/main.php 1 65
+http://mbox.bigmir.net/read/INBOX/55cc52572986/ 1 1
+http://91.234.33.68/myadmin/tbl_replace.php 4 4
+http://91.234.33.68/myadmin/tbl_export.php 2 2
+http://91.234.33.68/myadmin/js/mooRainbow/mooRainbow.css 0 6
+http://www.freelancejob.ru/vacancy.php 2 2
+http://loginza.ru/api/redirect 2 2
+https://91.234.33.68/manager/ispmgr 9 9
+http://sitespeed.ru/result/150821_2W_9Z/ 1 1
+https://91.234.33.68/ispmgr 1 1
+http://www.freelancejob.ru/vacancy/41388/ 3 3
+http://192.168.50.5:85/freecer_skills/fonts.css 6 6
+http://91.234.33.68/myadmin/server_export.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+freecer.net 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+freecer.net 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 187 153675
+302 3104 1644807
+206 106 7215149
+500 241 598291
+301 1 476
+404 597 358636
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 172
+/images/flags/%7B$code%7D.png 2 http://freecer.net/index.php
+/system/cms/ 1 -
+/admin/config.php 1 -
+/plugins/images/logos/privat24_logo.png 1 http://freecer.net/index.php
+/images/icons/default/stars%7B$val%7D.png 1 http://freecer.net/index.php
+/%7B$url%7D 2 http://freecer.net/index.php
+/datas/attach/projects//freecer_7.png 1 http://freecer.net/index.php
+//MyAdmin/scripts/setup.php 3 -
+/typo3/index.php 1 -
+/themes/bootlance/img/payment_img/easypay_logo.png 4 http://freecer.net/index.php
+/webmail/skins/Default/styles.css 1 -
+/CFIDE/administrator/ 2 -
+/%7BMAVATAR|cot_mav_thumb($this,%20255,%20191,%20auto)%7D 2 http://freecer.net/index.php
+/www.freecer.net 3 -
+/cgi-sys/php5 1 -
+/%7BPHP.usr.id%7Ccot_url('users',%20'm=details&id='$this'%7BUSERS_DETAILS_FOLIO_URL%7D 1 http://freecer.net/index.php
+/cgi-bin/rtpd.cgi 1 -
+/themes/,[1]%20=%3E%20Cotpl_var%20Object%20([]%20=%3E%20PHP,[]%20=%3E%20Array%20([0]%20=%3E%20theme),[]%20=%3E%20),[2]%20=%3E%20/img/logo2.png 12 http://freecer.net/index.php
+/cgi-bin/shop.cgi 1 -
+/index.cgi 1 -
+/rom-0 12 -
+//wp-login.php 1 -
+/cgi-sys/entropysearch.cgi 1 -
+/HNAP1/ 1 -
+/administrator/ 1 -
+/undefined 2 http://freecer.net/index.php
+/themes/bootlance/img/2p.pnh 1 http://freecer.net/index.php
+/phpMyAdmin/scripts/setup.php 1 -
+/wp-login.php 2 -
+/admin/login/ 1 -
+//pma/scripts/setup.php 3 -
+/themes/bootlance/img/online.png 26 http://freecer.net/index.php
+/resources/load.html 8 http://freecer.net/index.php
+/themes/img/alert/icon1.png 2 http://freecer.net/index.php
+/plugins/images/logos/monexy_logo.png 1 http://freecer.net/index.php
+/engine/print.php 1 -
+/cgi-bin/backup.cgi 1 -
+/plugins/images/logos/kyivstar_logo.png 1 http://freecer.net/index.php
+//phpmyadmin/scripts/setup.php 3 -
+/sitetree/ 1 -
+/login.action 2 -
+/cgi-bin/counter.cgi 1 -
+/webmail/static/js/app.min.js 1 -
+/cgi-bin/php 2 -
+/plugins/images/logos/wm_logo.png 1 http://freecer.net/index.php
+/README.txt 1 -
+/cgi-bin/upload.cgi 1 -
+/plugins/paymaster/images/nullbill.png 1 -
+/themes//img/alert/icon1.png 2 http://freecer.net/index.php
+/themes/bootlance/img/2etip.png 4 http://freecer.net/index.php
+/administrator.cgi 1 -
+/addport.html 1 -
+/cgi-bin/index2.cgi 1 -
+/blog//wp-login.php 1 -
+//myadmin/scripts/setup.php 3 -
+/images/flags/%D0%90%D0%B2%D1%81%D1%82%D1%80%D0%B8%D1%8F.png 8 http://freecer.net/index.php
+/tmUnblock.cgi 2 -
+/themes/bootlance/img/3etip.png 4 http://freecer.net/index.php
+/themes/bootlance/img/2p.jpg 2 http://freecer.net/index.php
+/themes/bootlance/img/ratings.png 1 http://freecer.net/themes/bootlance/css/style.css
+/%7BPRD_ROW_ID%7Ccot_files_get(folio,$this,logo,user_id,first)%7Ccot_file_get($this,icon)%7D 2 http://freecer.net/index.php
+/themes/bootlance/img/1p.jpg 2 http://freecer.net/index.php
+/themes/bootlance/img/payment_img/liqpay_logo 2 http://freecer.net/index.php
+/themes/bootlance/img/payment_img/monexy_logo.png 5 -
+/plugins/ckeditor/lib/plugins/oembed/icons/oembed.png 1 http://freecer.net/
+/cgi-bin/php.fcgi 1 -
+/themes/bootlance/img/payment_img/wm_logo.png 4 http://freecer.net/index.php
+/install.php 8 -
+/cgi-bin/hello.cgi 1 -
+/administrator/index.php 1 -
+/cgi-bin/concept.cgi 1 -
+/... 2 http://freecer.net/
+/cgi-bin/report.cgi 1 -
+/bitrix/admin/ 1 -
+/phpmyadmin 2 -
+/cgi-bin/webmap.cgi 1 -
+/cgi-bin/firewall.cgi 1 -
+/cgi-bin/download.cgi 2 -
+/cgi-bin/query.cgi 1 -
+/modx/manager/ 1 -
+/cgi-bin/file_up.cgi 1 -
+/cgi-bin/main.cgi 1 -
+/sitemap.xml 11 -
+/cgi-bin/register.cgi 1 -
+/cgi-sys/defaultwebpage.cgi 1 -
+/themes/bootlance/img/4etip.png 4 http://freecer.net/index.php
+/themes/bootlance/fonts/ontawesome-webfont.eot 1 -
+/cgi-bin/test.sh 1 -
+/web-console/ServerInfo.jsp 1 -
+/cgi-bin/Count.cgi 1 -
+/webmail/static/css/libs.css 1 -
+/wp-admin/ 1 -
+/cgi-bin/php5-cli 1 -
+/themes/bootlance/img/1etip.png 4 http://freecer.net/index.php
+/m/ 4 -
+/images/flags/%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0.png 3 http://freecer.net/index.php
+/cgi-bin/mt/mt-check.cgi 1 -
+/login_form 1 -
+/webdav/ 4 -
+/1 4 http://freecer.net/index.php
+/cgi-bin/whois.cgi 1 -
+/not-here.php 3 http://freecer.net/index.php
+/%5Bobject%20Object%5D 11 http://freecer.net/index.php
+/wp//wp-login.php 1 -
+/proxychecker/check.cgi 1 http://www.google.com/search
+/themes/bootlance/img/payment_img/privat24_logo.png 4 http://freecer.net/index.php
+/mobile/ 5 -
+/datas/attach/_thumbs/6/freecer_6-64x64-auto.png 1 http://freecer.net/index.php
+/images/flags/.png 22 http://freecer.net/index.php
+/themes/bootlance/img/2.jpg 6 http://freecer.net/index.php
+/cgi-bin/reboot.cgi 1 -
+/nowherereally 1 -
+/myadmin/scripts/setup.php 1 -
+/Frilancer 8 http://freecer.net/index.php
+/%7BPHP.usr.name%7Ccot_url('users',%20'm=details&u= 1 http://freecer.net/index.php
+/cgi-bin/test-cgi 2 -
+/admin/ 2 -
+/cgi-bin/php.cgi 1 -
+/plugins/PayMaster/images/nullbill.png 21 http://freecer.net/index.php
+/cms/kernel/admin.php 1 -
+/themes/bootlance/fonts/MagistralC_O.ttf 1 http://freecer.net/index.php
+/w00tw00t.at.blackhats.romanian.anti-sec:) 1 -
+/pma 1 -
+/%7B$icon%7D 1 http://freecer.net/index.php
+/hndUnblock.cgi 1 -
+/plugins/images/logos/liqpay_logo.png 1 http://freecer.net/index.php
+/netcat/ 1 -
+/cgi-bin/php5 2 -
+/MyAdmin/scripts/setup.php 1 -
+/modules/users/ajax/freelancer.php 8 http://freecer.net/index.php
+/cgi-bin/php4 2 -
+/sitemap 1 -
+/phpmyadmin/scripts/setup.php 2 -
+/cgi-bin/index.cgi 1 -
+/muieblackcat 3 -
+/%7BPRD_ROW_ID%7Ccot_files_get(folio,$this,gallery,user_id,first)%7Ccot_file_get($this,icon)%7D 1 http://freecer.net/index.php
+/datas/attach/_thumbs/5/freecer_5-64x64-auto.png 1 http://freecer.net/index.php
+/cgi-bin/php-cgi 1 -
+/plugins/mavatars/mavatars.delete.ajax.php 7 http://freecer.net/index.php
+/admin.cgi 1 -
+/webmail/static/js/libs.js 1 -
+/phppath/php 1 -
+/images/icons/default/vote%7B$val%7D.png 1 http://freecer.net/index.php
+/cgi-bin/welcome.cgi 1 -
+/%7B$src%7D 2 http://freecer.net/index.php
+/recordings/index.php 2 -
+/main.cgi 1 -
+/cgi-bin/search.cgi 1 -
+/themes/bootlance/fonts/Magistral 1 -
+/admin/bootstrap.inc.php 1 -
+/status 8 -
+/cgi-bin/light_board.cgi 1 -
+/data/config.php 1 -
+/break.php 1 -
+/datas/attach/_thumbs/7/freecer_7-64x64-auto.png 1 http://freecer.net/index.php
+/phppath/cgi_wrapper 1 -
+/member/login/ 1 -
+/cgi-bin/kontakt.cgi 1 -
+/pma/scripts/setup.php 1 -
+/plugins/images/logos/easypay_logo.png 1 http://freecer.net/index.php
+/textpattern/ 1 -
+/themes/bootlance/css/default.css 2 http://freecer.net/index.php
+/,[1]%20=%3E%20Cotpl_var%20Object%20([]%20=%3E%20USERS_ROW_AVATAR,[]%20=%3E%20,[]%20=%3E%20),[2]%20=%3E 16 http://freecer.net/index.php
+/wordpress//wp-login.php 1 -
+//phpMyAdmin/scripts/setup.php 3 -
+/index.php 153 http://freecer.net/index.php
+/cgi-bin/contact.cgi 1 -
+/cgi-bin/status.cgi 1 -
+/images/flags/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F.png 8 http://freecer.net/index.php
+/cgi-bin/test.cgi 1 -
+/%3Cimg%20src= 1 http://freecer.net/index.php
+/modules/widgets/js/widgets.js 9 http://freecer.net/admin.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 279
+31.134.212.203 20228 57814 1340272196 20150831185623
+178.126.155.40 15153 34355 223541802 20150829052806
+178.126.113.254 12337 16526 17111268 20150826131253
+93.188.33.238 6409 35391 104802927 20150815192015
+31.134.210.79 5184 42435 1281277838 20150821121112
+31.134.212.237 4912 47521 1245585360 20150814030139
+31.134.212.73 3641 32540 1020198720 20150818011803
+178.126.29.171 3209 7770 15076387 20150824001647
+31.134.212.206 3027 29132 648443976 20150810103152
+178.126.105.121 2240 9850 135288916 20150831235953
+188.64.171.181 8 45 2672059 20150827020443
+54.144.105.83 1 1 89042 20150818163701
+42.156.250.115 1 1 95886 20150827095920
+192.237.216.89 1 1 13887 20150805033951
+89.253.252.151 4 100 4735697 20150822013652
+216.55.177.85 3 37 2544736 20150826062113
+217.118.83.224 5 41 2841460 20150829152030
+146.185.37.125 1 9 470933 20150816105007
+5.143.115.8 8 44 2580106 20150826031419
+213.231.25.33 43 91 4284039 20150826155457
+66.249.81.247 2 41 441470 20150828234437
+5.45.192.87 6 48 3270609 20150830054938
+95.174.99.189 5 54 2311805 20150824140919
+95.158.38.89 2 2 28814 20150819203658
+109.252.44.93 6 40 2562686 20150827100119
+109.188.124.19 2 30 653182 20150814004535
+46.8.34.61 6 38 686319 20150813211231
+87.76.14.230 5 39 2727001 20150826182220
+176.215.68.28 14 83 4107430 20150822180353
+5.18.174.120 5 38 2231850 20150824103805
+217.23.187.209 8 45 2031360 20150824175532
+46.187.19.170 3 39 2679481 20150826145729
+66.249.93.163 3 39 906553 20150822010212
+104.148.44.116 4 4 375180 20150831185728
+94.251.59.103 5 39 2581549 20150824164345
+176.113.234.66 1 1 11700 20150829091039
+109.205.253.12 6 62 4821789 20150828232612
+78.111.186.37 5 39 2560928 20150826024941
+79.172.89.177 5 33 718665 20150805203206
+188.163.110.17 10 63 1184858 20150814181735
+83.149.8.167 6 58 2917368 20150824112156
+146.185.33.63 29 156 2277703 20150815153843
+42.120.142.221 1 1 93284 20150821095536
+178.214.192.203 576 2100 32243967 20150828202716
+213.231.15.164 18 18 80985 20150825175613
+146.185.33.58 1 1 14594 20150817180253
+5.45.255.110 4 42 2551125 20150827100602
+77.90.196.242 12 104 4529203 20150820173119
+213.231.22.55 21 25 493865 20150819115428
+83.219.129.194 10 53 2883295 20150824161156
+213.231.11.47 2 31 663515 20150814211026
+176.9.139.227 2 51 2878413 20150822013656
+213.231.12.127 2 2 5259 20150824130000
+182.118.60.46 1 1 14637 20150816221519
+188.231.139.16 582 1402 29330325 20150831131804
+141.212.122.82 2 2 186709 20150825162411
+173.252.121.113 0 1 1907861 
+66.249.81.214 2 2 18496 20150824110306
+213.231.20.47 7 36 519458 20150812104152
+195.66.219.136 14 62 3447019 20150830221504
+31.134.212.254 1690 14382 360360519 20150815141809
+54.226.153.67 1 1 88360 20150817220240
+182.118.53.35 1 1 13770 20150814232654
+37.110.36.211 7 43 2759488 20150826230219
+178.120.203.48 6 40 2651190 20150824174732
+37.147.142.38 37 245 15538700 20150818161638
+66.249.88.169 1 18 2144484 20150830030350
+195.66.216.155 80 116 380469 20150820204228
+69.58.178.59 11 11 577282 20150814214816
+157.55.39.136 0 1 853 
+104.167.98.27 1 1 96192 20150828172826
+95.104.167.172 2 31 664063 20150815071924
+207.46.13.80 0 2 1750 
+62.80.164.3 12 126 6045603 20150819111637
+193.188.136.20 15 76 1612805 20150814163654
+182.118.45.224 1 1 14755 20150818231356
+87.117.9.137 20 82 3166041 20150822135900
+54.211.1.218 1 1 94893 20150825001718
+158.69.2.151 1 1 91952 20150801044557
+42.156.250.118 2 2 193404 20150831100553
+178.120.198.176 6 40 2686056 20150826162418
+95.58.200.137 568 2180 23222050 20150821183831
+198.101.238.203 1 1 13887 20150805040316
+103.10.199.122 1 1 89876 20150818183700
+66.249.81.250 0 25 393245 
+194.126.21.5 1 11 2282633 20150817174343
+178.126.125.18 1251 11378 156442146 20150820202007
+78.25.122.87 8 46 2577125 20150824210842
+92.47.138.193 18 146 6754639 20150822084925
+178.93.77.102 6 37 731283 20150815171418
+109.254.48.148 1 1 96781 20150831055131
+188.226.17.134 5 39 2543999 20150825131221
+5.104.175.234 3 3 46100 20150831225738
+95.111.215.101 3 31 521440 20150810135546
+78.25.121.137 3 30 353079 20150826224126
+194.135.16.242 2 13 30820 20150826162041
+213.231.18.201 38 127 1042207 20150824115632
+94.75.169.13 3 43 2603985 20150824101241
+92.47.133.234 41 158 2659615 20150824210349
+222.241.151.149 1 1 13580 20150811233451
+23.101.61.176 12 12 301571 20150831232001
+188.16.22.234 7 41 2737013 20150828205200
+178.126.78.1 1097 9708 82131012 20150817163406
+89.248.160.192 1 1 91138 20150820232917
+89.21.86.102 13 53 2865544 20150828095501
+213.238.9.6 1 1 13826 20150805201150
+182.118.45.231 2 2 31234 20150831234338
+213.238.8.12 5 33 537047 20150805142811
+213.231.28.123 29 85 1196208 20150822211532
+87.117.9.174 11 107 5877607 20150826014057
+182.118.54.14 1 1 14648 20150817000117
+193.169.86.42 1 1 15778 20150824024925
+92.47.130.236 932 3675 28723756 20150820185111
+78.85.36.135 5 54 3030574 20150824141246
+213.231.27.208 59 62 181413 20150820182801
+176.114.129.160 1 1 13588 20150811195900
+176.103.48.25 1 1 13581 20150812014407
+46.211.200.52 5 59 958009 20150803091842
+217.69.132.11 2 24 556030 20150819055212
+145.255.171.131 4 32 676321 20150813153909
+31.40.17.113 1 1 88776 20150812221001
+31.134.209.216 26 290 5401201 20150811122923
+176.37.50.2 9 50 3028306 20150831000924
+89.251.167.71 20 82 3419473 20150825191341
+216.55.138.211 1 1 494 20150830030411
+83.220.239.100 5 54 3030589 20150822215646
+31.134.211.251 1907 18470 426160575 20150811114749
+194.135.17.62 5 39 2723882 20150825163025
+5.166.200.57 5 39 2546133 20150828144458
+213.231.8.13 98 214 787373 20150828130844
+46.45.17.57 7 57 2889575 20150824095833
+164.177.180.96 34 231 2069955 20150813165026
+91.226.212.39 1 1 16094 20150822223609
+182.118.60.87 1 1 2326 20150810232301
+188.232.20.200 8 45 2767852 20150826155802
+213.231.33.237 188 782 3983828 20150816153359
+213.231.18.66 79 130 2579300 20150825142901
+38.99.82.191 51 1272 2219756 20150831232253
+81.18.153.129 4 57 2939902 20150824114801
+182.118.55.114 1 1 13205 20150810200232
+46.216.60.234 8 106 5719088 20150824113312
+77.39.30.78 6 42 2818308 20150831182853
+65.49.54.70 2 2 181027 20150803191223
+195.66.223.15 126 488 9163494 20150818120103
+182.118.60.108 1 1 15368 20150824234743
+38.99.82.239 213 5404 3613389 20150802170055
+146.185.36.115 5 8 289794 20150815183710
+94.243.71.173 6 56 2899313 20150822232533
+217.118.79.29 5 35 651708 20150813145943
+178.205.139.39 7 45 2667948 20150827194509
+78.128.92.194 1 1 13203 20150810103435
+42.156.250.117 1 1 96187 20150828100929
+31.23.164.72 80 260 7507136 20150824160511
+182.118.45.216 1 1 15605 20150830230150
+66.249.81.244 3 32 4208894 20150828234437
+92.47.134.231 4 17 31803 20150826175634
+208.64.38.55 3 3 127433 20150822011750
+31.134.211.68 11 100 2119038 20150811121802
+141.212.122.202 1 1 96144 20150828042014
+109.111.154.17 5 39 2618917 20150825134625
+159.224.33.55 2 2 27157 20150813052013
+202.46.50.126 1 1 15407 20150826052148
+213.238.9.11 7 37 521516 20150803190047
+182.118.53.78 1 1 15144 20150820223654
+5.1.8.199 12 47 759232 20150814192026
+213.231.12.82 471 1048 6502460 20150819104959
+80.83.247.156 6 40 2649596 20150825115613
+37.194.255.68 8 51 1036133 20150827192326
+182.118.53.214 1 1 15474 20150827001650
+92.242.89.61 5 54 3034296 20150824135101
+213.238.8.14 3 11 70620 20150805194258
+92.47.129.107 2 24 27239 20150827180836
+85.192.189.246 9 62 3056242 20150824073235
+192.99.150.120 2 2 28735 20150824211625
+213.231.18.138 214 434 2243645 20150821210526
+194.114.133.131 40 40 3677044 20150824174341
+89.21.86.63 5 41 2834847 20150830160115
+91.219.169.72 1 1 12960 20150831120420
+182.118.55.123 1 1 15603 20150830205750
+213.87.249.174 4 38 2604894 20150828105919
+37.214.209.111 5 54 2848560 20150822134531
+213.231.6.172 2 27 472136 20150812084651
+213.87.128.231 5 38 745582 20150814124607
+182.118.53.243 2 2 31074 20150831205915
+91.234.35.245 5 59 610727 20150809113702
+173.252.88.244 0 1 1907861 
+194.0.123.194 11 44 841325 20150815110621
+54.153.66.211 1 1 83048 20150811011411
+173.252.105.114 0 1 169543 
+193.106.111.56 5 47 4264851 20150831235519
+89.248.160.196 3 3 267837 20150820040500
+66.102.6.209 1 16 114281 20150828205251
+182.118.53.30 1 1 14637 20150816215659
+213.179.252.217 5 54 2858014 20150822155314
+77.92.226.117 2140 14849 45300572 20150830125030
+66.102.6.206 1 10 173527 20150828205254
+81.18.153.130 1 1 16091 20150824114745
+199.19.249.196 1 1 93725 20150816210547
+213.231.9.29 25 38 184308 20150825003153
+66.220.145.150 0 1 1844 
+46.183.146.100 1 1 450 20150822010451
+37.190.51.0 6 40 2575427 20150825192406
+62.210.37.113 1 1 1533 20150816213825
+213.231.28.63 40 103 839999 20150829143230
+54.201.130.84 1 1 96280 20150824195538
+188.163.107.67 5 54 2681047 20150824125920
+180.76.15.9 1 1 3967 20150825214937
+185.79.100.83 5 39 2802423 20150825083315
+93.73.198.164 5 41 2894489 20150831000529
+37.147.200.252 10 60 3094027 20150822231331
+169.54.233.116 1 1 95888 20150827122453
+91.204.176.15 6 44 2576488 20150825124350
+66.249.93.155 3 37 610430 20150822010212
+193.34.160.3 6 36 718435 20150814140934
+178.126.84.48 397 2614 40162622 20150814210420
+93.126.73.218 7 42 110631 20150828163508
+207.46.13.108 0 3 19373 
+188.162.41.13 4 40 2819088 20150829155339
+178.93.68.52 5 41 2802386 20150830020443
+42.156.250.119 1 1 94877 20150825091638
+5.45.255.113 21 79 3399007 20150824065851
+178.64.151.239 13 55 2713992 20150825163949
+93.84.36.170 4 38 2529668 20150824200032
+95.158.0.243 3 37 2530277 20150826104323
+66.102.6.201 0 6 227993 
+104.45.18.178 4 6 290547 20150815170543
+94.23.217.201 1 1 16089 20150803095107
+181.114.219.34 1 1 96144 20150828020840
+95.58.207.223 18 73 294792 20150825214032
+5.129.25.44 5 54 2896505 20150824063923
+77.92.72.214 8 62 1386561 20150822174830
+182.118.53.77 1 1 15502 20150824201111
+89.21.86.237 5 39 2588481 20150825213152
+195.242.179.114 2 30 495243 20150802223851
+31.148.219.51 2 2 29062 20150816093351
+182.118.53.196 1 1 15157 20150820204929
+213.238.9.12 10 29 397042 20150804105734
+5.104.175.136 1 1 15599 20150831150752
+89.248.172.154 2 2 191419 20150822074018
+66.249.88.174 2 12 299352 20150830030356
+80.64.91.242 51 151 5201113 20150831003940
+173.252.81.113 0 1 169543 
+182.118.55.125 2 2 28385 20150816213839
+217.66.152.66 2 31 663351 20150814123224
+80.87.105.22 5 60 1129451 20150814161144
+64.74.215.50 16 278 5173798 20150828104232
+46.61.21.63 9 67 3331481 20150828101112
+213.231.7.148 8 13 200872 20150831185932
+94.158.32.209 7 66 3172602 20150822155941
+182.118.55.195 1 1 13743 20150812215623
+213.232.251.130 6 41 2611960 20150824223124
+103.246.38.196 1 1 93725 20150816203511
+76.74.97.4 2 2 175740 20150817063618
+188.230.108.18 4 53 2970829 20150822233057
+182.248.150.15 1 1 15779 20150824073724
+169.54.233.123 1 1 88940 20150812123905
+87.76.238.65 61 160 2367908 20150815152455
+178.93.149.67 14 103 5912186 20150818124127
+95.211.213.35 4 43 1209360 20150816111538
+95.181.197.190 6 47 2954262 20150831102940
+185.34.22.57 1 1 15599 20150831162214
+46.211.148.215 2 49 440020 20150820162611
+80.28.231.123 1 1 15359 20150821102834
+52.8.231.7 1 1 91576 20150815183713
+141.212.122.194 1 1 96169 20150828143531
+80.240.45.107 17 67 3015793 20150831154232
+188.40.35.183 4 4 298223 20150822014042
+31.13.109.118 0 1 1844 
+178.158.231.178 1 1 16094 20150822223128
+92.113.197.183 3 54 2870601 20150824155130
+66.249.93.159 0 28 4185263 
+182.118.53.188 2 2 32182 20150822221053
+81.163.96.0 13 46 718582 20150815080756
+194.177.26.165 1 31 2423203 20150825155549
+188.138.170.107 6 38 687462 20150813230809
+66.249.88.164 0 9 361458 
+213.231.31.120 16 58 888473 20150811200017
+31.181.193.3 5 39 2727605 20150825180102
+213.231.32.11 756 1630 4455960 20150820180909
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20150801 19 420 11157995 5
+20150802 258 6508 3881898 4
+20150803 102 1095 24333262 5
+20150804 288 2181 40739094 7
+20150805 839 8744 117901217 10
+20150806 144 830 21251179 2
+20150807 485 4931 37517193 5
+20150808 1359 9312 88462992 13
+20150809 1623 15055 337139535 13
+20150810 1890 14997 250782665 21
+20150811 5081 34973 564308250 20
+20150812 5472 38949 512157103 21
+20150813 1398 14886 446175983 27
+20150814 1688 11476 279916956 29
+20150815 1473 11819 245521621 27
+20150816 2404 20594 345791444 28
+20150817 2213 18822 703489995 30
+20150818 2918 18622 466791415 26
+20150819 2746 19314 371365768 24
+20150820 2974 17919 410851713 33
+20150821 6195 28652 706703584 21
+20150822 4903 11887 264249208 27
+20150824 5328 11546 183305564 49
+20150825 8628 12432 71640438 34
+20150826 9171 12256 68418692 26
+20150827 4859 6071 58549205 17
+20150828 7036 17816 193265572 33
+20150829 3285 11166 83214693 12
+20150830 1001 1678 46807361 16
+20150831 5657 29678 699677932 25
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 133
+5mn-15mn 34
+30s-2mn 67
+15mn-30mn 32
+2mn-5mn 42
+0s-30s 244
+30mn-1h 58
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 54
+/index.php 78778 268570534 248 363
+/themes/bootlance/fonts/fontawesome-webfont.woff 3894 275751058 0 20
+/admin.php 2978 12232466 12 8
+/modules/users/ajax/freelancer.php 2260 1721703 1 5
+/ 947 17825470 321 125
+/themes/bootlance/fonts/fontawesome-webfont.woff2 539 24583780 1 20
+/myadmin/sql.php 318 2749671 0 2
+/message.php 295 637841 4 5
+/plugins/mavatars/mavatars.delete.php 212 55613 0 0
+/themes/bootlance/fonts/fontawesome-webfont.ttf 184 5041948 0 35
+/themes/admin/foster/font/fontawesome-webfont.woff 2 87144 0 0
+/README.md 1 1533 1 1
+/themes/bootlance/fonts/MagistralC.ttf 163 3231352 5 12
+/plugins/SypexDumper/inc/sxd/index.php 20 14036 0 0
+http://www.google.com/ 3 113436 3 3
+/myadmin/import.php 4 21736 0 0
+/plugins/SypexDumper/inc/sxd/ 6 24778 0 0
+/myadmin/tbl_change.php 11 77169 0 0
+/myadmin/tbl_replace.php 5 37052 0 0
+/myadmin/db_sql.php 1 3732 0 0
+/datas/files/folio/24/file_130.swf 16 491883 0 1
+/myadmin/navigation.php 86 340181 0 1
+/login.php 44 147751 0 1
+/datas/projects/Text_Document.txt 2 610 0 0
+/datas/projects/test.txt 1 305 0 0
+/myadmin/export.php 4 4776920 0 0
+/themes/ 1 377 0 0
+/myadmin/tbl_structure.php 23 181519 0 0
+/myadmin/index.php 101 243610 10 0
+/plugins/mavatars/inc/mavatars.delete.php 17 5682 0 0
+/myadmin/db_search.php 1 4454 0 0
+/themes/bootlance/fonts/fontawesome-webfont.svg 1 313398 0 0
+/plugins/mavatars/mavatars.delete.ajax.php 37 9908 0 0
+/plugins/paymasterbilling/tpl/paymasterbilling.tpl 1 1771 0 0
+/plugins/mavatars/mavatars.new.block.php 152 79128 0 1
+/myadmin/phpmyadmin.css.php 151 699062 0 5
+/datas/projects/test_09082015_063021.txt 1 305 0 0
+/myadmin/db_structure.php 56 518829 1 0
+/myadmin/js/messages.php 7 49105 0 0
+/myadmin/db_export.php 1 9067 0 0
+/License.txt 1 1104 0 0
+/myadmin/server_export.php 1 8230 0 0
+/plugins/SypexDumper/inc/sxd/load.php 9 24187 0 0
+/myadmin/tbl_select.php 17 98853 0 0
+/myadmin/main.php 20 169231 0 0
+/myadmin/tbl_alter.php 2 14116 0 0
+/myadmin/ 12 38500 2 0
+/themes/admin/foster_freelance/font/fontawesome-webfont.woff 18 522864 0 0
+/themes/bootlance/fonts/fontawesome-webfont.eot 11 607670 1 2
+/datas/attach/page/5/att_12.zip 1 324 0 0
+/myadmin/tbl_export.php 2 17663 0 0
+/myadmin/tbl_sql.php 3 12805 0 0
+/myadmin/tbl_row_action.php 8 40553 0 0
+/plugins/ckeditor/lib/plugins/imgupload.php 8 3729 0 0
+END_SIDER

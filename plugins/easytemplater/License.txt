@@ -1,0 +1,29 @@
+
+  
+    * Plugin Easytemplater for CMF Cotonti Copyright (c) 2015, Roffun | http://olro.net/blog/blog-internet/easytemplater-plugin-cotonti
+    *
+    * All rights reserved.
+    *
+    * Redistribution and use in source code form , and in
+    * Binary forms, with or without modification , the following conditions :
+    *
+    *       * Redistributions of source code must retain the above
+    *         Copyright notice , this list of conditions and the following disclaimer .
+    *       * Redistributions in binary form must reproduce the above
+    *         Copyright notice , this list of conditions and the following disclaimer in the
+    *         Documentation and / or other materials provided with the distribution .
+    *       * Neither the name of <Organizations> nor the names of its contributors may be used
+    *         Endorse or promote products derived from this software without
+    *         Prior written permission.
+    *
+    * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND / OR OTHER PARTIES
+    * " AS IS " WITHOUT WARRANTY OF ANY KIND , EXPRESS OR IMPLIED,
+    * INCLUDING BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND
+    * FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT WILL ANY COPYRIGHT HOLDER , OR ANY
+    * OTHER PARTY WHO MAY MODIFY AND / OR REDISTRIBUTE THE PROGRAM AS
+    * SAID ABOVE , BE LIABLE TO , INCLUDING ANY INCIDENTAL ,
+    * SPECIAL OR CONSEQUENTIAL DAMAGES RESULTING FROM THE USE OR INABILITY
+    * USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA ,
+    * RENDERED INACCURATE OR LOSSES BORN BY YOU OR THIRD PARTIES OR A FAILURE
+    * PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS) , EVEN IF SUCH HOLDER OR
+    * OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES

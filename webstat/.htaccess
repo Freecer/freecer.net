@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/freecer.net/webstat"
+AuthUserFile /var/www/freezot/data/etc/146309935.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

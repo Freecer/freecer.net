@@ -1,0 +1,353 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201507 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.freecer.net.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1957                
+POS_TIME 2646                
+POS_VISITOR 8324                
+POS_DAY 9961                
+POS_DOMAIN 3486                
+POS_LOGIN 3722                
+POS_ROBOT 3877                
+POS_WORMS 4327                
+POS_EMAILSENDER 4458                
+POS_EMAILRECEIVER 4601                
+POS_SESSION 10226               
+POS_SIDER 10402               
+POS_FILETYPES 4736                
+POS_OS 5012                
+POS_BROWSER 5144                
+POS_SCREENSIZE 5517                
+POS_UNKNOWNREFERER 5591                
+POS_UNKNOWNREFERERBROWSER 5919                
+POS_ORIGIN 6031                
+POS_SEREFERRALS 6172                
+POS_PAGEREFS 6325                
+POS_SEARCHWORDS 6541                
+POS_KEYWORDS 6693                
+POS_MISC 2308                
+POS_ERRORS 6752                
+POS_CLUSTER 3578                
+POS_SIDER_404 6892                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150801012521 9508 2869186 34255783431
+FirstTime 20150725180214
+LastTime 20150731195440
+LastUpdate 20150810000121 9508 6547 2960 0 0
+TotalVisits 64                  
+TotalUnique 35                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 41                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 150 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 397 3504 64483482 84 103 261786
+1 254 2276 67118207 95 95 40664
+2 142 1296 26081498 5 6 2774
+3 50 420 7460721 7 8 26327
+4 10 11 369268 2 10 70447
+5 0 0 0 0 0 0
+6 2 25 509894 2 3 55157
+7 0 0 0 0 0 0
+8 11 115 933011 1 1 451
+9 154 1842 31992175 6 6 6162
+10 213 2227 53590381 26 34 591687
+11 227 2328 64699904 32 33 13801
+12 125 1818 38166181 7 7 4585
+13 275 2853 66639513 39 39 33637
+14 249 2630 48762736 10 10 4289
+15 297 2891 52238259 19 19 8297
+16 210 2319 44517503 40 41 18415
+17 288 3256 60677901 17 17 7618
+18 364 1963 38561651 70 75 50517
+19 350 2817 66655331 27 30 13293
+20 471 4301 83217966 30 30 16797
+21 366 3936 86782920 48 190 66980
+22 360 3359 79493526 66 66 30054
+23 471 4403 78615189 104 104 48943
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 5286 50590 1061567217
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+bot[\s_+:,\.\;\/\\-] 16 468294 20150728101300 2
+robot 10 93467 20150731154437 2
+facebook 9 31925 20150729000335 0
+baiduspider 8 69364 20150728043354 0
+no_user_agent 6 185842 20150728101302 0
+unknown 4 2081 20150730130252 4
+crawl 4 51361 20150730185758 0
+python 1 7674 20150727034307 0
+favicon 1 16115 20150730035827 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 13970 328460725 0 0
+png 6571 124388955 0 0
+ttf 1 122092 0 0
+woff2 5 284970 0 0
+txt 6 610 0 0
+woff 1588 111856236 0 0
+php 3447 27182806 0 0
+html 244 4798972 0 0
+js 23244 445888607 0 0
+jpg 574 18208409 0 0
+gif 940 374835 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+macosx 1
+winxp 106
+winlong 19
+winnt 60
+Unknown 23
+linux 42
+winvista 50052
+win7 286
+win2008 1
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 20
+msie6.0 3
+firefox28.0 2
+firefox4.0.1 1
+chrome45.0.2454.15 56
+chrome43.0.2357.124 185
+curl 1
+msie5.5 60
+msie8.0 64
+firefox6.0.2 1
+mozilla 20
+firefox14.0.1 11
+msie7.0 1
+chrome27.0.1453 29
+chrome41.0.2272.89 98
+firefox3.6.3 1
+chrome11.0.696.71 2
+chrome27.0.1453.116 1
+Unknown 2
+chrome30.0.1599.101 50051
+chrome21.0.1180.89 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+SEOstats_2.1.0 20150728101303
+Mozilla/4.0_(compatible;_Synapse) 20150729015406
+Curl/PHP_5.4.42_(http://github.com/shuber/curl) 20150729104054
+Mozilla/4.0_(compatible;_http://search.thunderstone.com/texis/websearch/about.html) 20150729022251
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+SEOstats_2.1.0 20150728101303
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 172 254
+From1 1 1
+From2 1 1
+From3 5 5
+From4 5107 50329
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+bing 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://best-seo-report.com 3 3
+http://quirktools.com/screenfly/ 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 5 4760
+302 589 269461
+206 10 65306
+500 4 15993
+404 110 43338
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 16
+/%7B%3Cspan%20class= 3 http://freecer.net/index.php
+/images/icons/button%20class= 1 http://freecer.net/index.php
+/images/icons/default%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C 3 http://freecer.net/index.php
+/0datas/folio/200_200_crop/Meteor.png 1 http://freecer.net/index.php
+/js/uaccordeon.js 2 http://freecer.net/index.php
+/images/icons/%3Cbutton%20class= 1 http://freecer.net/index.php
+/Text_Document 1 http://freecer.net/index.php
+/themes/bootlance/bootstrap/img/gray_jean.png 1 http://freecer.net/index.php
+/images/icons/default%3Cbutton%20class= 1 http://freecer.net/index.php
+/images/icons/default%3Cbutton%20type= 6 http://freecer.net/index.php
+/0datas/folio/200_200_crop/angely.png 1 http://freecer.net/index.php
+/images/icons/default%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%3C/a%3E%3C/p%3E%3C/td%3E%3C/tr%3E%3C/table%3E%3C/div%3E%3Cbr/%3E%3Cul%3E%3C/ul%3E%3Cbr/%3E%3C/div%3E%3Cdiv%20class= 1 http://freecer.net/index.php
+/1datas/folio/200_200_crop/metr.png 1 http://freecer.net/index.php
+/easytemplater 1 -
+/Exidom 1 http://freecer.net/index.php
+/admin 85 http://freecer.net/index.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 41
+31.134.209.156 4256 41201 881258562 20150729012929
+31.134.211.226 794 8194 147374013 20150730002410
+94.158.76.82 99 241 4854103 20150729185304
+31.134.212.206 66 656 22079087 20150731175615
+193.164.130.30 14 98 1582677 20150731195440
+50.117.87.207 12 12 805298 20150731093103
+69.58.178.58 10 10 365232 20150730042504
+104.238.194.164 4 4 226015 20150729020914
+206.183.1.74 3 17 250955 20150729022251
+192.99.150.120 2 62 576163 20150731004332
+23.239.196.71 1 1 91976 20150730031848
+46.166.190.162 1 1 33042 20150727005532
+173.208.136.186 1 1 3937 20150726172159
+150.70.97.84 1 1 33042 20150727003946
+82.235.56.238 1 1 489 20150727002908
+192.237.216.89 1 1 14439 20150727180656
+69.46.27.154 1 1 15193 20150729104054
+64.69.91.210 1 1 33042 20150727010048
+50.177.200.87 1 1 33042 20150727004819
+50.118.223.230 1 1 3964 20150726201428
+69.164.111.198 1 24 495147 20150728063822
+66.249.80.83 0 1 499 
+111.206.36.12 0 1 4036 
+150.70.173.51 1 1 33042 20150727004001
+50.193.202.82 1 1 16095 20150730175506
+66.249.85.215 0 6 118041 
+50.118.223.253 1 1 15184 20150729015406
+66.249.80.91 0 1 17169 
+192.126.169.245 1 1 11493 20150727135445
+66.249.80.99 0 2 4786 
+36.248.99.131 1 1 91975 20150729225238
+54.87.110.229 1 1 88309 20150729021326
+5.39.93.201 1 1 6679 20150727003930
+66.249.85.209 1 8 90669 20150729104101
+69.64.32.191 2 2 175986 20150728101303
+66.249.85.212 0 10 257327 
+204.13.200.200 1 19 373086 20150727002919
+158.69.2.151 1 1 14747 20150726061038
+65.49.54.70 1 1 91952 20150731181005
+66.249.88.180 1 1 15193 20150729104059
+198.101.238.203 1 1 11531 20150727130156
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20150725 571 3650 64116639 2
+20150726 782 5764 132536156 8
+20150727 1362 14011 236133123 16
+20150728 1410 15996 409742703 8
+20150729 1014 9811 185404531 16
+20150730 63 600 9680342 6
+20150731 84 758 23953723 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+1h+ 12
+0s-30s 47
+15mn-30mn 4
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/index.php 2723 24583253 8 10
+/themes/bootlance/fonts/fontawesome-webfont.woff 1536 109764780 1 6
+/admin.php 676 2480835 1 1
+/ 244 4798972 54 45
+/themes/admin/foster_freelance/font/fontawesome-webfont.woff 52 2091456 0 0
+/message.php 39 91018 0 0
+/login.php 9 27700 0 0
+/themes/bootlance/fonts/fontawesome-webfont.woff2 5 284970 0 2
+/themes/bootlance/fonts/fontawesome-webfont.ttf 1 122092 0 0
+/datas/projects/Text_Document.txt 1 305 0 0
+END_SIDER

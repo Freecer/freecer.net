@@ -1,0 +1,769 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201509 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.freecer.net.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1957                
+POS_TIME 2643                
+POS_VISITOR 12801               
+POS_DAY 17402               
+POS_DOMAIN 3636                
+POS_LOGIN 3873                
+POS_ROBOT 4028                
+POS_WORMS 4706                
+POS_EMAILSENDER 4837                
+POS_EMAILRECEIVER 4980                
+POS_SESSION 17678               
+POS_SIDER 17887               
+POS_FILETYPES 5115                
+POS_OS 5487                
+POS_BROWSER 5639                
+POS_SCREENSIZE 6228                
+POS_UNKNOWNREFERER 6302                
+POS_UNKNOWNREFERERBROWSER 6596                
+POS_ORIGIN 6848                
+POS_SEREFERRALS 6994                
+POS_PAGEREFS 7149                
+POS_SEARCHWORDS 8463                
+POS_KEYWORDS 8615                
+POS_MISC 2305                
+POS_ERRORS 8674                
+POS_CLUSTER 3729                
+POS_SIDER_404 8830                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150907000055 7137 1860991 60647878707
+FirstTime 20150901000017
+LastTime 20150907000055
+LastUpdate 20150907000108 7137 0 7136 1 0
+TotalVisits 151                 
+TotalUnique 103                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 109                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 604 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 861 2446 43852494 177 206 1909418
+1 706 2306 24458898 103 104 1444032
+2 395 1326 11528620 57 68 2312834
+3 143 978 290308 55 61 1162662
+4 143 867 278948 47 47 1338059
+5 163 2044 20170794 56 71 1127676
+6 327 489 8367950 85 96 2133352
+7 33 99 5934953 40 44 840729
+8 31 69 2797037 66 74 1051462
+9 893 1982 38994004 69 104 2040142
+10 1433 5763 237994935 105 113 980782
+11 795 3007 103382470 205 221 3009863
+12 1670 5373 202729740 85 101 2784431
+13 1757 5525 181283499 75 120 1420935
+14 2660 4790 87863080 76 113 6230181
+15 2183 4559 62481667 102 126 4346381
+16 2099 6425 205213296 189 216 1603631
+17 2339 8068 200194585 372 408 4661746
+18 3994 12845 240035508 198 312 2587080
+19 4031 10376 237341836 160 306 1224651
+20 3005 8223 328446984 56 200 1338335
+21 2101 5029 146547985 61 101 1325901
+22 1593 3566 119026179 483 491 3512439
+23 1762 3281 77910700 238 246 4018905
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 35117 99436 2587126470
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+googlebot 954 8141423 20150906234716 12
+mj12bot 673 4801129 20150906231336 18
+baiduspider 243 21764696 20150906232837 0
+no_user_agent 87 2365043 20150906230928 2
+yandex 44 266889 20150906211918 13
+java\/[0-9] 35 5565584 20150906052315 0
+bot[\s_+:,\.\;\/\\-] 34 116634 20150906002149 7
+unknown 11 5984 20150906105333 11
+msnbot 6 81447 20150905192422 3
+favicon 5 77451 20150906193934 0
+surveybot 2 15204 20150905070220 1
+facebook 1 1844 20150902084359 0
+netcraft 2 900 20150906204254 0
+robot 3 1582 20150903130557 2
+crawl 1 16189 20150903234116 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 15
+eot 2 121534 0 0
+css 18682 266308012 0 0
+png 11398 1142037498 0 0
+ico 5 1809 0 0
+ttf 158 3382580 0 0
+woff 546 38298056 0 0
+woff2 350 19393600 0 0
+swf 103 18124766 0 0
+php 31812 47333407 0 0
+html 418 7432513 0 0
+js 30490 436217092 0 0
+jpg 3062 576014825 0 0
+jpeg 267 562350 0 0
+Unknown 1728 9319912 0 0
+gif 415 22578516 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+linuxandroid 224
+winxp 127
+winnt 31932
+winvista 58346
+linux 6370
+macosx 168
+winunknown 40
+Unknown 5
+win2008 2224
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 31
+msie6.0 4
+chrome44.0.2403.125 44
+safari7.0 2
+chrome45.0.2454.85 1086
+firefox20.0 1
+firefox4.0.1 2
+firefox40.0 513
+chrome43.0.2357.124 87
+chrome41.0.2251.0 8
+chrome44.0.2403.155 32160
+safari2.0.4 40
+firefox38.0 36
+chrome36.0.1985.125 1
+chrome28.0.1500.71 1
+msie8.0 3
+firefox1.0 1
+mozilla 71
+netscape5.0 7
+chrome44.0.2403.157 651
+firefox37.0 64
+chrome42.0.2311.135 13
+msie10.0 34
+chrome27.0.1453 33
+firefox9.0.1 8
+msie9.0 56
+chrome44.0.2403.133 224
+chrome47.0.2501.3 42
+Unknown 3
+chrome40.0.2214.93 66
+chrome30.0.1599.101 57792
+safari 6383
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+()_{_:;};/usr/bin/perl_-e_'print_\ 20150904000452
+http://advisor.wmtransfer.com/ 20150903065803
+Mozilla/5.0_zgrab/0.x 20150904093739
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20150901214902
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+()_{_:;};/usr/bin/perl_-e_'print_\ 20150904000452
+http://advisor.wmtransfer.com/ 20150903065803
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20150901214902
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 595 603
+From1 0 0
+From2 9 9
+From3 302 678
+From4 34211 98146
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 9 9
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 26
+http://91.234.33.68/myadmin/index.php 70 92
+http://91.234.33.68/myadmin/navigation.php 58 88
+http://91.234.33.68/myadmin/db_structure.php 52 120
+http://91.234.33.68/myadmin/sql.php 37 70
+http://91.234.33.68/myadmin/tbl_row_action.php 23 27
+http://www.freelancejob.ru/vacancy/41387/ 20 20
+https://91.234.33.68/myadmin/ 7 26
+https://91.234.33.68/manager/ispmgr 6 6
+https://91.234.33.68/myadmin/index.php 6 6
+http://91.234.33.68/myadmin/main.php 5 78
+https://91.234.33.68/myadmin/navigation.php 2 11
+http://91.234.33.68/myadmin/phpmyadmin.css.php 0 3
+https://91.234.33.68/myadmin/main.php 1 36
+https://91.234.33.68/myadmin/sql.php 1 4
+http://yandex.ua/clck/jsredir 2 2
+http://ballrecord.net 1 1
+https://91.234.33.68/myadmin/db_structure.php 3 19
+https://91.234.33.68/myadmin/tbl_structure.php 1 16
+https://91.234.33.68/myadmin/tbl_select.php 1 2
+http://www.freelancejob.ru/lenta.php 2 2
+http://loginza.ru/api/redirect 1 1
+http://91.234.33.68/myadmin/db_export.php 1 1
+http://91.234.33.68/myadmin/tbl_change.php 0 2
+https://91.234.33.68/myadmin/tbl_operations.php 1 1
+http://91.234.33.68/myadmin/tbl_structure.php 0 43
+http://91.234.33.68/myadmin/server_export.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 41 20250
+302 921 501812
+206 76 9744991
+500 11 13276
+301 1 534
+404 192 139559
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 93
+/sitemap.xml 6 -
+/plugins/SypexDumper/inc/sxd/backup/freezot_2015-09-03_16-00-04.sql.gz 1 http://freecer.net/plugins/SypexDumper/inc/sxd/
+/cgi-bin/register.cgi 1 -
+/cgi-sys/defaultwebpage.cgi 1 -
+/0%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%201%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20datas/files/folio/28/file_145.png 1 http://freecer.net/index.php
+/web-console/ServerInfo.jsp 1 91.234.33.68:81/web-console/ServerInfo.jsp
+/cgi-bin/test.sh 1 -
+/invoker/JMXInvokerServlet 1 91.234.33.68:81/invoker/JMXInvokerServlet
+/cgi-bin/Count.cgi 1 -
+/projects/texts/articles/%D0%9D%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C-10-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D1%83%D1%8E-%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D1%83 1 -
+/users/users%2FFrilancer2 2 -
+/projects/texts/articles/%D0%9D%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8E 1 -
+/folio/design/logos/345678 2 http://freecer.net/users/admin
+/users/30 1 http://freecer.net/users/moderatorlilit80
+/wordpress 1 -
+/users/Rabota 1 http://freecer.net/users
+/plugins/justygotop/img/scroll.png 1 http://freecer.net/index.php
+/users/users%2FRabota 1 -
+/www.freecer.net 1 -
+/cgi-sys/php5 1 -
+/cgi-bin/rtpd.cgi 1 -
+/cgi-bin/printenv 1 -
+/cgi-bin/whois.cgi 1 -
+/users/users%2FSaburov 1 -
+/users/users%2Fzozulya 2 -
+/cgi-bin/shop.cgi 1 -
+/info.cgi 1 -
+/mobile/users/kayson 1 -
+/0%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20modules/files/img/types/48/txt.png 2 http://freecer.net/index.php
+/cgi-bin/profile.cgi 1 -
+/rom-0 2 -
+/cgi-sys/entropysearch.cgi 1 -
+/cgi-bin/reboot.cgi 1 -
+/cgi-sys/helpdesk.cgi 1 -
+/cgi-bin/formmail.cgi 1 -
+/cgi-bin/test-cgi 1 -
+/wp-login.php 1 -
+/market/raster-cliparts/123 7 http://freecer.net/users/Frilancer
+/html//a2billing/admin/Public/modules/ 1 -
+/cgi-bin/backup.cgi 1 -
+/users/users%2FGrenrel 2 -
+/users/users%2FUrban 2 -
+/login.action 1 -
+/users/users%2Flyudantonieva 2 -
+/cgi-bin/counter.cgi 1 -
+/cgi-bin/php 1 -
+/users/moderatorlilit80 1 http://freecer.net/
+/users/users%2Fadmin 2 -
+/page/%D0%A2%D1%8B%D0%B6%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%B0%D0%B9%D1%82%D0%B5%D1%80-8 1 -
+/users/9 3 http://freecer.net/users/Rabota
+/cgi-bin/php5 1 -
+/users/users%2FFrilancer 1 -
+/cgi-bin/upload.cgi 1 -
+/users/users%2FLenochka95 2 -
+/users/users%2Fkayson 2 -
+/jmx-console/HtmlAdaptor 1 http://91.234.33.68:81/jmx-console/HtmlAdaptor
+/users/Frilancer 1 http://freecer.net/freelancers/
+/cgi-bin/index.cgi 1 -
+/cgi-bin/test 1 -
+/cgi-bin/index2.cgi 1 -
+/0%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%201%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20datas/files/folio/29/file_131.jpg 2 http://freecer.net/index.php
+/user/soapCaller.bs 1 -
+/market/vector/logo-it/123 1 http://freecer.net/market/10
+/plugins/justygotop//img/scroll.png 5 http://freecer.net/index.php
+/admin.cgi 1 -
+/users/users%2Ftanyabondars 2 -
+/users/users%2Folga_sergeevna_g 2 -
+/cgi-bin/php.fcgi 1 -
+/cgi-bin/search.cgi 1 -
+/main.cgi 1 -
+/m/users/kayson 1 -
+/cgi-bin/hello.cgi 1 -
+/status 7 -
+/administrator/index.php 1 -
+/users/10 1 http://freecer.net/users/Frilancer
+/cgi-bin/concept.cgi 1 -
+/cgi-bin/kontakt.cgi 1 -
+/cgi-bin/report.cgi 1 -
+/manager/html 1 -
+/users/users%2Fkat 1 -
+/cgi-bin/firewall.cgi 1 -
+/cgi-bin/webmap.cgi 1 -
+/index.php 61 -
+/cgi-bin/contact.cgi 1 -
+/users/users%2FADGIMPT 2 -
+/cgi-bin/download.cgi 2 -
+/plugins/justygotop/css/img/png 1 http://freecer.net/index.php
+/cgi-bin/query.cgi 1 -
+/cgi-bin/test.cgi 1 -
+/cgi-bin/about_us.cgi 1 -
+/cgi-sys/signup.cgi 1 -
+/cgi-bin/calendar.cgi 1 -
+/cgi-bin/file_up.cgi 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 109
+178.126.245.94 9953 27599 715901419 20150903214704
+31.134.210.115 8236 16354 426599146 20150903014835
+31.134.212.200 5913 20012 404273057 20150905190114
+31.134.209.194 4093 9031 323358705 20150903235840
+31.134.211.217 2300 7209 248957306 20150903140845
+178.126.138.111 1743 2541 11333469 20150907000052 20150907000022 /index.php
+31.134.212.243 735 3166 136440533 20150904120108
+178.126.105.121 725 1536 19093789 20150901053008
+31.134.209.195 410 696 13418263 20150907000055 20150907000013 /admin/structure
+178.214.192.203 228 683 21999958 20150905184921
+217.117.66.52 5 51 4176220 20150902144644
+66.102.6.201 2 11 520244 20150904192429
+46.211.148.30 5 26 258654 20150904093002
+62.80.176.246 18 84 1101021 20150902135924
+78.128.92.194 1 1 15665 20150902091031
+199.30.16.164 0 1 7724 
+91.233.173.90 1 1 15663 20150902084255
+46.229.140.177 5 44 4262664 20150901202626
+85.91.123.6 7 128 6856156 20150906115137
+38.99.82.203 46 1157 1889198 20150905153320
+182.118.60.44 1 1 15047 20150906210954
+157.55.12.81 0 1 7724 
+38.99.82.252 2 45 576574 20150905120659
+182.118.60.79 2 2 30846 20150906205132
+188.242.240.141 7 59 5752845 20150906021303
+78.25.80.226 1 1 16189 20150904000452
+2.92.223.249 5 43 4093416 20150902173409
+5.18.228.66 13 75 5796596 20150904073615
+182.118.54.31 1 1 15047 20150906233034
+52.0.89.236 1 1 101666 20150904032351
+188.42.240.119 2 2 108390 20150902071146
+46.211.149.236 2 6 6927 20150902073453
+213.231.29.251 7 70 6273041 20150906130549
+182.118.55.135 1 1 14602 20150904224349
+178.95.130.20 7 62 4543543 20150906175552
+5.104.175.234 2 2 31978 20150904131106
+195.239.250.239 1 38 1488729 20150901164614
+95.58.210.53 15 115 2508273 20150902144234
+195.66.222.87 25 99 7087536 20150905114437
+66.249.88.174 2 29 410738 20150904192421
+187.120.212.59 1 1 102495 20150904110916
+83.219.141.114 7 50 2978467 20150901012952
+142.54.165.138 1 1 88781 20150906040444
+182.118.60.54 1 1 15047 20150906212931
+46.211.202.187 2 2 20735 20150902105459
+182.118.45.228 1 1 15800 20150902220114
+95.53.193.17 5 44 4062906 20150901154000
+54.85.116.12 3 41 4224332 20150903065822
+142.54.187.42 1 1 96832 20150901081103
+104.148.44.116 1 1 85711 20150905084401
+66.249.93.163 0 13 216828 
+178.90.249.49 4 29 487116 20150901165905
+94.159.52.174 19 133 11160979 20150904121557
+46.211.120.209 7 26 397278 20150903113039
+38.99.82.213 5 195 445493 20150906110535
+38.99.82.251 130 4323 3485272 20150906054711
+178.65.213.36 1 24 3789679 20150901233635
+23.101.61.176 3 3 37051 20150905221950
+168.235.195.209 3 78 7600071 20150901165847
+38.99.82.227 2 46 608175 20150905120703
+86.100.94.126 1 1 13140 20150903174754
+38.99.82.211 15 331 1761619 20150901235415
+37.73.237.195 1 3 22582 20150906102212
+128.69.146.89 5 43 4111327 20150902213213
+92.60.178.147 15 94 9014451 20150905010223
+78.128.92.193 1 1 15040 20150906030901
+85.114.202.103 16 70 4620634 20150903110059
+38.99.82.223 7 236 582354 20150906002222
+178.121.215.251 1 1 12960 20150904134253
+188.162.14.117 3 36 1657695 20150906161035
+93.72.2.13 7 65 6251349 20150905001108
+193.106.111.56 2 4 4554 20150901001827
+66.102.6.209 0 13 187002 
+92.54.110.98 5 53 4327928 20150903213521
+95.220.82.234 1 1 10669 20150906082744
+46.211.121.237 13 25 932679 20150902094805
+209.126.230.75 1 1 97213 20150901214902
+85.236.166.62 7 49 4135376 20150903115530
+66.102.6.206 0 9 163088 
+77.92.226.117 3 41 4082871 20150902093927
+76.74.97.4 2 2 171445 20150905021020
+37.190.56.61 5 43 2577294 20150903080655
+217.118.83.243 5 48 5399471 20150904210506
+46.211.205.99 3 13 82853 20150903145047
+95.133.58.71 1 1 15665 20150902091856
+178.219.244.159 10 64 6283294 20150906161030
+54.65.31.74 1 1 15630 20150901073910
+46.211.144.237 2 40 542645 20150901201631
+188.231.139.16 14 119 4674124 20150906125809
+193.169.86.58 1 1 16158 20150903201132
+141.212.122.82 1 1 97742 20150901124507
+95.153.135.78 6 32 556381 20150901200412
+66.249.91.204 1 1 4285 20150904192352
+213.231.8.161 18 89 4953700 20150904175344
+195.154.165.177 2 2 188446 20150906050308
+141.212.122.194 1 1 101690 20150904093739
+193.23.122.142 1 1 15603 20150901194120
+182.118.45.242 1 1 14598 20150904202452
+66.249.88.169 1 30 1026348 20150904192421
+37.73.224.23 3 50 5695918 20150905165627
+193.151.56.5 12 75 7025988 20150904192551
+31.134.211.175 151 1379 70446660 20150904123825
+66.249.93.155 0 12 533257 
+89.184.80.3 3 41 4082871 20150902111459
+66.249.93.159 2 8 130989 20150904192301
+62.80.164.3 32 184 8461691 20150902170436
+66.249.88.164 3 40 1231990 20150904192424
+213.186.192.84 8 41 546742 20150902131357
+176.59.207.28 3 42 950852 20150905184252
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20150901 6799 16985 400949233 24
+20150902 7741 16810 409000409 28
+20150903 10998 29680 1010733083 19
+20150904 5740 20978 578047798 32
+20150905 2459 8395 140821414 22
+20150906 1369 6577 47552821 24
+20150907 11 11 21712 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 22
+5mn-15mn 8
+30s-2mn 15
+15mn-30mn 5
+2mn-5mn 10
+0s-30s 81
+30mn-1h 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 230
+/index.php 30942 36591246 41 55
+/themes/bootlance/fonts/fontawesome-webfont.woff 546 38298056 1 2
+/ 360 6450930 82 39
+/admin.php 354 1378711 0 0
+/themes/bootlance/fonts/fontawesome-webfont.woff2 350 19393600 0 7
+/message 229 193241 1 2
+/message.php 214 147527 1 1
+/currencyconverter 117 80296 0 0
+/admin/extensions 104 448312 0 0
+/themes/bootlance/fonts/MagistralC.ttf 97 2007004 1 4
+/admin/config 48 151604 0 0
+/folio/24 1 11202 0 0
+/forums/forum/communication/post125 1 4037 0 0
+/forums/forum/communication/post18 1 4096 0 0
+/admin/cache 3 5400 0 0
+/forums/forum/discussion-f/post42 1 3907 0 0
+/contact 21 88467 2 1
+/myadmin/import.php 1 3988 0 0
+/plugins/SypexDumper/inc/sxd/ 3 12432 0 0
+/projects/texts/scripts/%D0%A1%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9-%D0%B4%D0%BB%D1%8F-%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0 1 7772 0 0
+/users/olga_sergeevna_g 1 4284 0 0
+/datas/files/folio/24/file_130.swf 27 1639610 0 1
+/sbr/2 2 9462 0 0
+/employers/ 8 151231 0 0
+/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8F%D0%BC 2 14137 0 0
+/forums/forum/communication 46 223610 1 1
+/forums/fold%23top 1 3993 0 0
+/users/30 2 23279 0 0
+/users/Rabota 8 35315 0 0
+/forums/forum/communication/post27 1 4252 0 0
+/folio/design 1 10514 0 0
+/forums/forum/communication/topic9 2 16550 0 1
+/myadmin/db_structure.php 53 535721 0 1
+/market/pictures-photos/%D0%9F%D1%83%D1%81%D1%82%D0%BE 4 15952 0 0
+/users/lyudantonieva 2 8511 0 0
+/folio/design/logos/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF-39 3 12065 0 0
+/folio/design/corporate-Identity/%D0%A4%D0%B8%D1%80%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D1%81%D1%82%D0%B8%D0%BB%D1%8C 6 23999 1 0
+/folio/design/logos/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF-32 1 4264 0 0
+/plugins/SypexDumper/inc/sxd/load.php 9 24166 0 0
+/myadmin/server_export.php 1 8229 0 0
+/admin/projects 9 92935 0 0
+/folio/design/logos 1 10518 0 0
+/folio/29 1 11192 0 0
+/forums/forum/communication/post41 1 4318 0 0
+/market/scrap/%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5 3 11970 0 0
+/forums/forum/%D1%81riticism 11 43912 0 0
+/forums/forum/discussion-f/post120 1 4011 1 0
+/folio/30 2 22382 0 0
+/myadmin/ 6 18897 0 0
+/payorders 2 6430 0 0
+/folio/audio-video/videodesigns 1 9968 0 0
+/users/Privetvcem 1 4125 0 0
+/forums/forum/communication/post81 1 4382 0 0
+/forums/forum/communication/post14 1 5014 0 0
+/folio/art/painting 2 20132 0 0
+/forums/forum/communication/topic22 1 4597 0 0
+/projects/translations/technical-translation/%D0%9F%D0%B5%D1%80%D0%B5%D0%B2%D0%B5%D1%81%D1%82%D0%B8-%D1%81%D0%B0%D0%B9%D1%82-%D0%BD%D0%B0-%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5-%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8 2 16408 0 0
+/files 5 33220 0 0
+/forums/forum/events 4 14666 0 0
+/projects/design/banners/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%82%D0%B8%D0%B7%D0%B5%D1%80%D0%BE%D0%B2-%D0%B8-%D0%B1%D0%B0%D0%BD%D0%BD%D0%B5%D1%80%D0%BE%D0%B2 1 7227 0 0
+/login 2 7172 0 0
+/projects/34 7 68918 0 0
+/system/ 1 18497 0 0
+/projects/architecture-interior/architecture/%D0%9D%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8E 41 326006 0 0
+/forums/unfold%23top 2 7974 0 0
+/forums/forum/communication/post91 1 4262 1 0
+/users/kat 3 12326 0 0
+/folio 58 603011 0 0
+/forums/forum/discussion-f/post107 1 4131 0 0
+/articles 1 5782 0 0
+/forums/forum/communication/post15 1 4242 0 0
+/folio/animation-cartoons/scripts-for-animation/%D0%91%D0%B5%D0%B7-%D0%BB%D0%BE%D0%B3%D0%BE-%D1%81-%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5 2 7965 0 0
+/admin/rightsbyitem 1 3216 0 0
+/market/raster-cliparts/111r 2 7990 0 0
+/users/19 5 39811 0 1
+http://www.google.com/ 2 26100 2 2
+/users/9 12 253366 0 0
+/users/Besmer 1 4209 0 0
+/folio/design/logos/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF-37 1 4241 0 0
+/myadmin/navigation.php 30 123497 0 0
+/folio/design/corporate-Identity/%D0%92%D0%B8%D0%B7%D0%B8%D1%82%D0%BA%D0%B0 15 97044 7 3
+/forums/forum/communication/topic20 3 15657 0 0
+/myadmin/tbl_structure.php 10 90728 0 0
+/projects/design/banners 1 13775 0 0
+/news 5 22745 0 0
+/paymasterbilling 27 94991 0 0
+/forums/forum/communication/post115 1 4385 0 0
+/forums/forum/communication/post16 1 4116 0 0
+/users/Urban 3 13393 0 0
+/files/183 1 465 0 0
+/forums/forum/communication/post48 1 4014 0 0
+/folio/art/painting/%D0%91%D0%B5%D0%B7-%D0%BB%D0%BE%D0%B3%D0%BE-%D0%B1%D0%B5%D0%B7-%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F 2 8190 0 0
+/rss/projects 6 6581 0 0
+/folio/34 1 11133 0 0
+/payments 27 91751 0 0
+/users/Sender 16 66893 0 0
+/forums/forum/communication/post20 1 4400 0 0
+/forums/forum/communication/post119 1 4127 0 0
+/folio/design/logos/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF-42 39 153952 0 0
+/projects/design/banners/%D0%A0%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D1%8B%D0%B9-%D0%B1%D0%B0%D0%BD%D0%BD%D0%B5%D1%80-%D0%B4%D0%BB%D1%8F-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-freecer 19 90657 0 0
+/sbr 1 3312 0 0
+/projects/22 27 219059 0 0
+/forums/forum/communication/post122 1 3983 0 0
+/forums/forum/useful 12 47669 0 0
+/forums/forum/discussion-f/topic13 1 4982 0 0
+/projects 73 808085 0 2
+/users/Monoleon 9 39132 0 0
+/forums/forum/communication/post21 1 4660 0 0
+/users/Saburov 8 35832 0 0
+/%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8 2 9680 0 0
+/forums/forum/communication/post24 1 4059 0 0
+/folio/design/logos/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF-33 1 4327 0 0
+/users/zozulya 2 10821 0 0
+/forums/forum/communication/post86 1 4060 0 0
+/users/29 5 59895 0 0
+/forums/forum/discussion-f/post123 1 3909 0 0
+/admin/page 1 5758 0 0
+/folio/network-information-systems/database-administration/%D0%9D%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5 3 11814 0 0
+/articles/%D0%A2%D1%8B%D0%B6%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%B0%D0%B9%D1%82%D0%B5%D1%80-8 2 13096 1 0
+/folio/3D-Graphics/3D-Animation/%D0%9D%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-34 1 3930 0 0
+/users/Frilancer2 21 102557 0 1
+/forums/forum/communication/post26 1 4134 0 0
+/myadmin/tbl_row_action.php 24 147440 0 0
+/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0-%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%BE%D0%B2 2 9696 0 0
+/users/Lenochka95 2 8623 0 0
+/folio/35 1 10247 0 0
+/users/Fermer 6 25625 0 2
+/folio/network-information-systems/database-administration 1 9977 0 0
+/admin/files 9 28885 0 0
+/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0-%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D1%87%D0%B8%D0%BA%D0%B0%D0%BC 1 7061 0 0
+/forums/forum/communication/topic14 1 4849 0 0
+/folio/36 1 10248 0 0
+/datas/files/folio/28/file_95.swf 42 10549908 0 0
+/projects/texts/articles/%D0%9D%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C-10-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D1%83%D1%8E-%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D1%83 1 7556 0 0
+/verification 1 4083 0 0
+/myadmin/export.php 2 7225573 0 0
+/freelancers/ 38 754426 0 0
+/folio/art/painting/%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-36 12 48016 0 0
+/folio/design/logos/%D0%9D%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-34 2 8158 0 0
+/forums/forum/discussion-f/post121 1 4028 0 0
+/projects/texts/articles/%D0%9D%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8E 46 358529 0 0
+/projects/3D-Graphics/3D-Animation 1 12490 0 0
+/users/31 11 194387 0 0
+/projects/3D-Graphics/3D-Animation/ntrcn 2 7666 0 0
+/forums/forum/discussion-f/post52 1 4165 0 0
+/myadmin/index.php 28 67047 5 0
+/users/Grezzly 2 8444 0 0
+/forums/forum/discussion-f 5 19855 0 0
+/forums/forum/communication/post17 1 4155 0 0
+/forums/forum/communication/post117 1 3936 0 0
+/market/raster-cliparts 5 27461 0 0
+/users/12 2 8150 0 0
+/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B5-%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%88%D0%B5%D0%BD%D0%B8%D0%B5 15 102521 0 0
+/forums/forum/communication/topic15 1 7380 0 0
+/forums/forum/communication/topic8 11 103853 0 0
+/myadmin/db_export.php 1 9063 0 0
+/page 2 15543 0 0
+/projects/texts/slogans-naming 2 25974 0 0
+/folio/animation-cartoons/scripts-for-animation 1 9977 0 0
+/forums/forum/communication/post106 1 4174 0 0
+/admin/market 5 31478 0 0
+/folio/design/corporate-Identity 1 10441 0 0
+/market/10 5 34247 0 0
+/forums/forum/communication/topic7 1 5986 0 0
+/files/96 1 293525 0 0
+/admin/folio 3 31364 0 0
+/users/tanyabondars 1 4346 0 0
+/users/kayson 3 12720 0 0
+/users/ADGIMPT 4 17413 0 1
+/forums/forum/%D1%81riticism-it 4 15980 0 0
+/projects/33 1 9850 0 0
+/themes/bootlance/fonts/fontawesome-webfont.eot 2 121534 0 2
+/forums/forum/communication/post126 1 4030 0 0
+/projects/texts/slogans-naming/%D0%9F%D1%80%D0%B8%D0%B4%D1%83%D0%BC%D0%B0%D1%82%D1%8C-%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%B8%D0%B9-%D1%81%D0%BB%D0%BE%D0%B3%D0%B0%D0%BD 9 44737 0 0
+/folio/audio-video/videodesigns/%D0%9D%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8-%D0%B8%D0%B7-%D0%B4%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D0%B9-%D0%B3%D1%80%D0%B5%D1%86%D0%B8%D0%B8 5 20923 0 0
+/forums/forum/communication/topic21 2 10388 0 0
+/function.require 1 650 0 0
+/forums/forum/services-service 4 14627 0 0
+/forums 12 53299 0 0
+/forums/forum/critikism 5 19396 0 0
+/forums/forum/communication/post77 1 3979 0 0
+/plugins/SypexDumper/inc/sxd/index.php 9 5730 0 0
+/projects/32 1 10135 0 0
+/datas/files/folio/36/file_167.swf 12 3223583 0 0
+/themes/bootlance/fonts/fontawesome-webfont.ttf 61 1375576 0 13
+/forums/forum/suggestions 4 14621 0 0
+/ds 4 13237 0 0
+/users/moderatorlilit80 3 12432 0 0
+/function.require-once 6 3900 0 0
+/market 37 211292 0 2
+/%D0%9D%D0%B0%D1%87%D0%B0%D0%BB%D0%BE-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B 2 14720 0 0
+/myadmin/tbl_change.php 1 13642 0 0
+/login.php 3 17557 0 2
+/users/admin 36 216177 0 0
+/users/Frilancer 16 80047 0 0
+/flash/for1.swf 14 367241 0 0
+/forums/forum/communication/post35 1 3970 0 0
+/forums/forum/communication/topic11 1 7110 0 0
+/folio/design/logos/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF-38 1 4303 0 0
+/forums/forum/communication/post63 1 3946 0 0
+/forums/forum/communication/post60 1 4218 0 0
+/myadmin/sql.php 83 739120 0 0
+/users/1 15 160627 0 0
+/forums/forum/discussion-f/post31 1 3888 0 0
+/myadmin/phpmyadmin.css.php 33 145629 0 2
+/users/20 1 4059 0 0
+/admin/structure 60 204125 0 1
+/forums/forum/communication/post33 1 4546 0 0
+/market/lessons-video-tutorials/%D1%84%D0%BE%D1%82%D0%BE 1 3897 0 0
+/forums/forum/discussion-f/topic24 1 4472 0 0
+/myadmin/tbl_operations.php 1 7906 0 0
+/myadmin/tbl_select.php 1 5861 0 0
+/users/10 5 96696 0 0
+/forums/forum/smoking-oom 12 51444 0 0
+/myadmin/main.php 5 41443 0 0
+/users/11 3 14992 0 0
+/plugins/SypexDumper/inc/sxd/info.php 7 3583 0 0
+/forums/forum/communication/post25 1 4504 0 0
+/admin 42 165904 1 0
+/users 63 883176 1 0
+/forums/forum/politics 6 21787 0 0
+/users/Grenrel 4 16762 0 0
+/forums/forum/communication/post114 1 3977 0 0
+/admin/other 22 68834 0 0
+/forums/forum/communication/post57 2 8720 1 0
+/forums/forum/communication/post32 1 4189 0 0
+/folio/design/logos/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF 1 4317 0 0
+/datas/files/project/32/file_168.swf 8 2344424 0 0
+/news/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8 5 26240 0 0
+/forums/forum/discussion-f/post40 1 3984 0 0
+END_SIDER

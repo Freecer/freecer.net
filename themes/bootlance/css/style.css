@@ -1,0 +1,733 @@
+/* 0. Elements
+-------------------------------------------------- */
+@font-face {
+    font-family: MagistralC; /* имя шрифта для CSS правил */
+    src: local("MagistralC"), /* проверяем наличие шрифта в ОС пользователя */
+         url(../fonts/MagistralC.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+  }
+
+* { margin:0; padding:0; }
+html  { padding:0; height:100%; }
+
+body  { 
+  height:100%;
+  background-color:#FFFFFF;
+}
+.seq {color: #dddddd;}.seq3 {color: #666666; font-size: 13px;}
+hr      { border:0 dashed #ccc; border-top-width:1px; clear:both; height:0; }
+hr.divider  { margin:10px 0; }
+
+sub, sup  { font-size:.8em; position:relative; }
+sub     { top:.5em; }
+sup     { top:-.5em; } 
+
+input, select { width: inherit!important; }
+textarea  { width: 99%; min-height: 100px; }
+.error { color: red; }
+
+.schstring { width: 99%!important; }
+.locselectcountry, .locselectregion, .locselectcity { width: 160px!important; }
+
+
+.hh5{ border-bottom: 2px solid#f8f8f8; padding-bottom:15px; }
+td.sweywer p a{ padding: 5px; font-weight: bold;}
+td.sweywer p a:hover{color:#008000;text-decoration: none; } td.sweywer a i:hover{color:#008000; }
+td.sweywer {font-size: 12px;  padding-left: 20px;  padding-right: 20px; text-align: center;}
+/* 1. Main Navigation
+-------------------------------------------------- */
+
+#nav        { line-height:1.4em; background:#ddd; overflow:auto; margin:0; padding:0; }
+#nav li       { width:159px; border-right:1px solid #f8f8f8; float:left; }
+#nav li a       {  padding:10px 20px; display:block; }
+#nav li a:hover   { color:#fff; text-decoration:none; text-shadow:0 -1px 0 #000; background:#667e72; }
+#nav li a span      { color:#999; font-size:.9em; text-transform:lowercase; display:block; }
+#nav li a:hover span  { color:#ccc; }
+.tenter{background: #f8f4ff;}
+.tenter2{background: #f8f4ff; }
+/* 2. Structure
+-------------------------------------------------- */
+.werx { text-align: center;}
+.werxt {right: 0;left: 50%; margin: auto; top: 115px;  z-index: 998; position: absolute;}
+#wrapper      { min-height:100%; }
+#main         { padding-bottom: 10px; padding-top: 38px; }
+
+#header         { margin-top: 40px; height: 140px; }
+#header .logo   { padding:50px 0 30px; font-size: 36px; font-weight: bold; }
+#header .logo a   { color:#0065CC; text-decoration: none; }
+#header .auth     { margin: 0; text-align: right; }
+
+#footer   { border-top: #b3b3b3 solid 1px; padding: 10px 0; min-height: 80px; margin-top: -41px; font-size: 12px; background:#ebebeb;}
+.block        { margin:0 0 25px; }
+.older img        { height: 180px; width: 180px;}
+#footer a:hover  { color: #333333}
+/* 3. Headings
+-------------------------------------------------- */
+
+
+a.beryy{border: 1px solid #025273; color:#025273;padding: 5px; padding-left: 10px; padding-right: 10px;text-decoration: none;}
+a.beryy:hover{border: 1px solid #008000; color:#008000;}
+.mboxHrr { background: #ebebeb;}
+.mboxHy { color:#000000; font-weight: bold; font-size:12px; margin: 2px; }
+.mboxHD { color:#000000; font-weight: bold; font-size:16px; margin: 10px 0; }
+.fixer { color:#666666;  font-weight: bold; font-size:12px; border-top: 1px solid #025273}
+
+.warning  { background-image:url(../../../images/icons/default/warning.png); }
+
+div.error, div.warning, div.done, div.help    { line-height:2em; margin:20px 0; padding:10px 50px; background-position:15px 50%; background-repeat:no-repeat; clear:both; }
+div.error                 { color:#d8000c; background-color:#ffbaba; background-image:url(../../../images/icons/default/error.png); border:1px solid #d8000c; }
+div.warning                 { color:#9f6000; background-color:#feefb3; background-image:url(../../../images/icons/default/warning.png); border:1px solid #9f6000; }
+div.done                    { color:#4f8a10; background-color:#dff2bf; background-image:url(../../../images/icons/default/done.png); border:1px solid #4f8a10; }
+div.help                    { color:#00529b; background-color:#bde5f8; background-image:url(../../../images/icons/default/help.png); border:1px solid #00529b; }
+
+/* 4. Tables
+-------------------------------------------------- */
+
+table td  { vertical-align:top; }
+
+table.flat  { border-collapse:collapse; width:100%; }
+table.flat td   { padding:2px; margin:0; border:0; }
+
+table.main  { border-collapse:collapse; width:100%; }
+table.main td   { padding:2px 0; margin:0; border:0; }
+
+table.cells   { border-collapse:collapse; width:100%; }
+table.cells td  { padding:4px 8px; border:1px solid #e7e7e7; }
+
+table.list  { border-collapse:collapse; width:100%; }
+table.list td   { padding:5px 5px 5px 0; border-bottom:1px dashed #ccc; }
+
+table.fico    { border-collapse:collapse; width:100%; }
+table.fico td   { padding:5px 0; margin:0; border:0; }
+table.fico td img { margin-right:5px; vertical-align:middle; }
+
+.coltop   { text-align:center; vertical-align:middle; font-size:.9em; background-color:#ddd!important; color:#000; }
+.coltop img { vertical-align:middle; }
+.centerall  { text-align:center; vertical-align:middle; }
+.valid    { height:48px; text-align:center; vertical-align:middle; border:0!important; }
+
+/* 6. Misc
+-------------------------------------------------- */
+
+.odd  { background-color:#fff!important; }
+.red {color:#ff0000; }
+.reyl {color:#008000; }
+.red:hover {color:#ff0000; text-decoration: underline;}
+.reyl:hover {color:#008000; text-decoration: underline;}
+
+.code   { color:#000; background:#e3e3e3; border:1px solid #ccc; padding:2px 15px; margin:5px 0; font-family:monospace; font-size:1.1em; white-space:pre-wrap; }
+
+.clear  { clear:both; }
+.lhn  { line-height:normal; }
+.strong { font-weight:bold; }
+.italic { font-style:italic; }
+
+.small_inc  { font-size:.9em!important; line-height:1.2em;  color: #666666; padding-bottom: 5px;}
+.small  { font-size:.9em!important; line-height:0.8em; color: #bdb6bf;}
+.large  { font-size:1.1em!important; }
+
+.lower    { text-transform:lowercase; }
+.upper    { text-transform:uppercase; }
+.capital  { text-transform:capitalize; }
+
+.hide   { display:none; }
+.hidden   { display:none; }
+.invis    { visibility:hidden; }
+.seriy p{color:#666666;}
+.textumbo       { font-size: 30px;font-weight:bold;}
+.textumbo:hover {  text-decoration: none; }
+
+.textleft   { text-align:left; }
+.textcenter   { text-align:center; }
+.textright    { text-align:right; }
+.textjustify  { text-align:justify; }
+
+.floatleft    { float:left; }
+.floatright   { float:right; }
+
+.black      { color:#000; }
+.grey     { color:#999; }
+.red      { color:#900; }
+.white      { color:#fff; }
+
+.colleft    { float:left; margin:5px 15px 0 0; }
+.colright   { float:right; margin:5px 0 0 15px; }
+
+.margintop10  { margin-top:10px; }
+.marginright10  { margin-right:10px; }
+.marginbottom10 { margin-bottom:10px; }
+.marginleft10 { margin-left:10px; }
+.margin10   { margin:10px!important; }
+.margin0    { margin:0!important; }
+
+.paddingtop10 { padding-top:10px; }
+.paddingright10 { padding-right:10px; }
+.paddingbottom10{ padding-bottom:10px; }
+.paddingleft10  { padding-left:10px; }
+.padding10    { padding:10px!important; }
+.padding0   { padding:0!important; }
+
+.border0    { border:0!important; }
+
+.borright        { float:right; } 
+
+.height25   {height:2%;}
+.width5   { width:5%; }
+.width10  { width:10%; }
+.width15  { width:15%; }
+.width20  { width:20%; }
+.width25  { width:25%; }
+.width23    { width:23%; }
+.width29    { width:29%; }
+.width30  { width:30%; }
+.width31    { width:31%; }
+.width35  { width:35%; }
+.width40  { width:40%; }
+.width45  { width:45%; }
+.width50  { width:50%; }
+.width55  { width:55%; }
+.width60  { width:60%; }
+.width61    { width:61%; }
+.width65  { width:65%; }
+.width70  { width:70%; }
+.width75  { width:75%; }
+.width80  { width:80%; }
+.width85  { width:85%; }
+.width90  { width:90%; }
+.width95  { width:95%; }
+.width98   { width:98%; }
+.width100 { width:100%; }
+
+.desc   { font-size:.9em; margin:5px 0; padding:5px 0; padding-left:6px ;background:#e9e9e9; border:1px solid #ccc; border-left:0; border-right:0; overflow:auto; }
+.desc strong  { color:#fff; margin-right:8px; padding:2px 6px; background:#aaa; }
+
+.combox   { font-size:2em; text-align:center; margin:0 10px 5px 0; padding-top:6px; height:42px; width:48px; background:url(../img/comments.png) no-repeat 0 0; float:left; }
+.textbox  { margin-bottom:10px; overflow:auto; }
+
+span.readmore   { display:block; }
+  span.readmore a {  }
+
+.download { margin:10px 0; padding:10px 0 10px 84px; background:url(../img/download.png) no-repeat 10px 12px; border:1px dashed #c00; }
+
+.clearfix:before, .clearfix:after { content:'\0020'; display:block; overflow:hidden; visibility:hidden; width:0; height:0; }
+.clearfix:after           { clear:both; }
+.clearfix             { zoom:1; }
+
+/* 7. Pagination
+-------------------------------------------------- */
+
+.paging   { margin:10px 0 20px 0; text-align:center; font-size:.9em; }
+.paging img { vertical-align:-3px; }
+.paging span  { border:1px dashed #7f7772; padding:2px 8px; margin:1px; }
+
+.pagenav_prev, .pagenav_next, .pagenav_first, .pagenav_last, .pagenav_pages, .pagenav_current { padding:2px 6px; margin:1px; border:1px dashed #7f7772; }
+.pagenav_prev a, .pagenav_next a, .pagenav_first a, .pagenav_last a, .pagenav_pages a { color:#555; }
+.pagenav_current  { font-weight:bold; color:#fff; background:none!important; border:none!important; }
+.pagenav_current a  { color:#555; }
+.pagenav_small    { text-align:right; font-size:.9em; }
+
+.spaced       { border:none!important; margin:0 8px!important; padding:0!important; }
+
+/* 8. Comments
+-------------------------------------------------- */
+
+.comments1, .comments2  { margin-bottom:10px; float:left; position:relative; }
+.comments1        { width:20%; }
+.comments2        { width:80%; }
+
+/* 9. Polls
+-------------------------------------------------- */
+
+.bar_front  { background-color:#cde8fb; border-right:0px solid #333; color:#ddd; height:8px; font-size:1px; }
+.bar_back   { background-color:#fff; border:1px solid #333; height:8px; }
+
+/* 10. Forums
+-------------------------------------------------- */
+
+.b1 img     { margin:0 5px 0 0; vertical-align:-5px!important; }
+.userstatus   { margin-top:2px; float:right; }
+.forumssection  { font-weight:bold; background:#eee; }
+.subforums img  { vertical-align:-3px; margin-right:5px; }
+
+#newf     { margin:10px 0; }
+#newf li      { margin-right:10px; display:inline; }
+
+/* 11. Search
+-------------------------------------------------- */
+
+.search-res     { margin:0 0 10px; overflow:auto; }
+.search-res .small  { color:#000; }
+.search-hl          { font-weight:bold; padding:0 2px; background:yellow; }
+
+/* 12. Lists
+-------------------------------------------------- */
+
+.endItem      { margin-right:0!important; }
+.endItem+li     { clear:both; }
+
+ul.bullets li     { padding-left:25px; background:url(../img/bullets.png) no-repeat 5px 2px; }
+ol          { margin-left:20px; list-style-type:decimal; }
+
+#usergrouplist ul li:first-child a  { color:#900; }
+
+/* 13. Login form 
+--------------------------------------------------- */
+
+.form-signin {
+  padding: 7px 19px 19px 19px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+      border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.form-signin .checkbox {
+  margin-bottom: 20px;
+}
+
+#listprojects {}
+#listprojects .prjtop { border:2px solid #025273; }
+#listprojects .prjbold { border:2px solid #008000; }
+
+.red> i {color:#900;}
+
+#filterform .open .dropdown-menu {
+    border: 0 none;
+    border-radius: 0;
+    box-shadow: none;
+    float: none;
+    margin: 0;
+    padding: 5px 0 10px 30px;
+    position: relative;
+}
+
+
+.mini-menu{}
+.mini-menu > ul > li {
+    position: relative;
+}
+.mini-menu > ul > li > a { text-decoration: none;}
+.mini-menu > ul > li > a:hover,
+.mini-menu > ul > li > a.active {
+
+}
+.mini-menu .sub > ul {
+    border: 0 none;
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.mini-menu .sub > ul > li > a {
+    counter-increment: items;
+    color:#514b92;
+    font-size: 12px;
+    display: block;
+    text-decoration: none;
+    padding: .7em 1em;
+    border-bottom: 1px dotted #bababa;
+}
+.mini-menu .sub > ul > li > a:hover,
+.mini-menu .sub > ul > li > a.active {
+    background: #d8d8d8;
+    color: red;
+    padding-left: 1.3em;
+}
+.mini-menu .sub > ul > li > a:after{
+    content: "»";
+    float: left;
+    margin-right:6px;
+    line-height: 12px;
+}
+#filterform .sub > label {
+    float: left;
+    height: 12px;
+    margin: 0 10px 0 0;
+    width: 10px;
+}
+#filterform .sub ul li {
+    color: #037f8b;
+    margin: 0 !important;
+    padding: 0 20px 0 12px;
+    position: relative;
+}
+#filterform .sub ul li .pull-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#filterform .sub ul li input {
+    margin: 0 10px 0 0;
+}
+.sub.section.opened > ul {
+    padding: 5px 0 1px;
+}
+.terw a img {padding-bottom: 3px; border-bottom: 1px solid #e3e3e3;}
+.terw {padding-bottom: 3px; margin-bottom: 10px;  display: block;}
+.terw p {margin-bottom: 0px; font-size: 11px; margin-top: 3px;}
+.terwer {margin-bottom: 1px; font-size: 11px; margin-top: 3px; max-height: 145px; max-width: 145px;  display:block;float:right;}
+.terw11 { font-size: 11px;  line-height: 12px; height: 20px; }
+.type7 {width: 48px; height: 48px;}
+.terwtabl { font-size: 11px;  line-height: 12px;}
+.typw {min-width: 165px; height: 132px; margin-bottom: 10px; text-align: center;}
+.typwy {min-width: 48px; height: 48px; margin-bottom: 47px; margin-top: 47px; margin-left:59px; margin-right:59px;text-align: center; }
+
+.wellbordse {
+
+float: left;
+width: 163px; height: 160px;
+vertical-align: middle;
+text-align: center;
+padding: 5px;
+font-size: 11px;  
+line-height: 12px;
+margin:3px;
+border: 1px solid #e3e3e3;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+}
+
+.wellbordse img{border: 1px solid #e3e3e3;}
+.vertfer{overflow: hidden; width: 135px;}
+
+/* Cначала обозначаем стили для IE8 и более старых версий
+т.е. здесь мы немного облагораживаем стандартный чекбокс. */
+.checkbox {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+/* Это для всех браузеров, кроме совсем старых, которые не поддерживают
+селекторы с плюсом. Показываем, что label кликабелен. */
+.checkbox + i {
+  cursor: pointer;
+}
+
+/* Далее идет оформление чекбокса в современных браузерах, а также IE9 и выше.
+Благодаря тому, что старые браузеры не поддерживают селекторы :not и :checked,
+в них все нижеследующие стили не сработают. */
+
+/* Прячем оригинальный чекбокс. */
+.checkbox:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.checkbox:not(checked) + i {
+  position: relative; /* будем позиционировать псевдочекбокс относительно label */
+  padding: 0 0 0 60px; /* оставляем слева от label место под псевдочекбокс */
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.checkbox:not(checked) + i:before {
+  color: #777777;
+    font-size: 14px;
+    left: 0;
+    position: absolute;
+    top: 4px;
+}
+.checkbox:hover:not(checked) + i::before {
+    color: #008000;
+}
+/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
+.checkbox:not(checked) + i:after {
+  left: 0;
+    position: absolute;
+    top: 0;
+}
+/* Меняем фон чекбокса, когда он включен. */
+.checkbox:checked + i:before {
+    color: #008000;
+    content: "";
+}
+/* Сдвигаем переключатель чекбокса, когда он включен. */
+.checkbox:checked + i:after {
+  left: 26px;
+}
+/* Показываем получение фокуса. */
+.checkbox:focus + i:before {
+}
+
+
+.checkbox-check {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+/* Это для всех браузеров, кроме совсем старых, которые не поддерживают
+селекторы с плюсом. Показываем, что label кликабелен. */
+.checkbox-check + i {
+  cursor: pointer;
+}
+
+/* Далее идет оформление чекбокса в современных браузерах, а также IE9 и выше.
+Благодаря тому, что старые браузеры не поддерживают селекторы :not и :checked,
+в них все нижеследующие стили не сработают. */
+
+/* Прячем оригинальный чекбокс. */
+.checkbox-check:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.checkbox-check:not(checked) + i {
+  position: relative; /* будем позиционировать псевдочекбокс относительно label */
+  padding: 0 0 0 19px; /* оставляем слева от label место под псевдочекбокс */
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.checkbox-check:not(checked) + i:before {
+  color: #777777;
+    font-size: 14px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.checkbox-check:hover:not(checked) + i::before {
+    color: #008000;
+}
+/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
+.checkbox-check:not(checked) + i:after {
+  left: 0;
+    position: absolute;
+    top: 0;
+}
+/* Меняем фон чекбокса, когда он включен. */
+.checkbox-check:checked + i:before {
+    color: #008000;
+    content: "";
+}
+/* Сдвигаем переключатель чекбокса, когда он включен. */
+.checkbox-check:checked + i:after {
+  left: 26px;
+}
+/* Показываем получение фокуса. */
+.checkbox-check:focus + i:before {
+}
+.subsection > label {
+    color: #025273;
+    font-size: 13px;
+  margin: 0 0 4px;
+}
+.nosub label {
+    color: #025273;
+    font-size: 14px;
+    margin: 0 -15px;
+    padding: 1px 15px;
+}
+#filterPrice > b {
+    color: #444;
+    display: block;
+    margin: 20px 0 5px;
+}
+#filterPrice input {
+    max-width: 60px;
+    padding: 2px 5px;
+}
+#locselectcity, #locselectregion {
+    display: none !important;
+}
+#filterRegion > b {
+    color: #444;
+    display: block;
+    margin: 20px 0 5px;
+}
+
+.u_rating {
+    background: rgba(0, 0, 0, 0) url("../img/ratings.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 14px;
+    overflow: hidden;
+    text-align: left;
+    width: 69px;
+}
+
+.u_rating .cur_rat {
+    background: rgba(0, 0, 0, 0) url("../img/ratings.png") no-repeat scroll 0 -14px;
+    display: inline-block;
+    height: 14px;
+
+}
+.u_rating_m {
+    background: rgba(0, 0, 0, 0) url("../img/ratings_m.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 12px;
+    overflow: hidden;
+    text-align: left;
+    width: 59px;
+
+}
+.u_rating_m .cur_rat {
+    background: rgba(0, 0, 0, 0) url("../img/ratings_m.png") no-repeat scroll 0 -12px;
+    display: inline-block;
+    height: 12px;
+}
+
+
+ol.files .thumbnail {
+    display: inline-block;
+}
+
+
+.niz_search {margin: 15px; border-top: 1px solid #bababa; }
+
+.panel-heading{padding-top: 5px; }
+
+.mavatar_add{text-align: center; padding-bottom: 10px; min-height: 160px; }
+.mavatar_add1{max-width: 8px; }
+.mavatar_add2{max-width: 130px;}
+.centrals {text-align: center; color:#686d78; font-size: 12px;}
+.centra { color:#686d78; font-size: 12px; }
+
+.freelancer > li > ul > li{
+  list-style: outside none none;
+}
+
+.freelancer > li > ul > li > a {
+    text-decoration: none;
+}
+
+.freelancer li {
+  list-style: outside none none;
+}
+
+.freelancer a {
+    text-decoration: none;
+}
+
+
+.subsection label {
+     font-family: FontAwesome;
+    color: #037f8b;
+    font-size: 12px !important;
+    margin: 0 0 4px;
+    line-height: 1;
+}
+
+.freelancer > li > a {
+display: list-item;
+height: 20px;
+cursor: pointer;
+}
+
+
+#getChack {
+  color:#777;
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+#getChack:hover{
+  color: #008000;
+}
+
+#getChack .fa-check-circle{
+  color: #008000;
+}
+
+#getChack .fa-check-square-o{
+  color: #008000;
+}
+
+.chetbox_ul ul{
+  margin-left: 10px;
+}
+
+#getChack .fa {
+  font-size:small;
+}
+
+/* Профиль - навыки */
+@font-face {
+  font-family: 'FontForSkills';
+  src: url('../fonts/Magistral');
+  src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+#profile #ucats_check li {
+  color: #025273;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  list-style: none;
+  word-wrap: break-word;
+}
+#profile #ucats_check li input {
+  width: 10px !important;
+  margin-right: 5px;
+  vertical-align: top;
+}
+#profile #ucats_check > li {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px 10px;
+  width: 220px;
+}
+#profile #ucats_check > li > label {
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+  border-bottom: 1px solid silver;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  margin-left: -4px;
+}
+#profile #ucats_check > li > label input {
+  visibility: hidden;
+  margin-top: 2px !important;
+}
+#profile #ucats_check > li > label input:after {
+  visibility: visible;
+  position: relative;
+  font-family: "FontForSkills";
+  color: #777777;
+  font-size: 14px;
+  left: 0;
+  top: 1px;
+  content: "\f10c";
+}
+#profile #ucats_check > li > label input:checked:after {
+  color: #008000;
+  content: "";
+}
+#profile #ucats_check > li ul {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  margin-left: 16px;
+}
+#profile #ucats_check > li ul li {
+  text-indent: -19px;
+  padding-left: 15px;
+  line-height: 12px;
+}
+#profile #ucats_check > li ul li > label {
+  line-height: inherit;
+}
+#profile #ucats_check > li ul li > label input {
+  visibility: hidden;
+  margin-top: -3px;
+}
+#profile #ucats_check > li ul li > label input:after {
+  visibility: visible;
+  position: relative;
+  font-family: "FontForSkills";
+  color: #777777;
+  font-size: 14px;
+  left: 0;
+  top: 2px;
+  content: "\f096";
+}
+#profile #ucats_check > li ul li > label input:checked:after {
+  color: #008000;
+  content: "";
+}
+
+
+.payform_it { list-style: none;  width:400px; clear:both; margin: 5px; float: center;}
+.payform_it li {width:120px; height: 60px;float: left; border: 3px solid #ebebeb;  margin:3px; border-radius: 5px;}
+.payform_it li:hover, .payform_it li:active, .payform_it li:focus {border: 3px solid #025273;}
+.payform_it_btn {  margin-top:25px;}
